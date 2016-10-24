@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family:"宋体","Microsoft YaHei",Arial;
+    text-align: left;
+    font-size: 12px;
+}
+a{
+    color: #302C34;
+    text-decoration: none;
+}
+em,i{
+    font-style: normal;
+}
+img{
+    display: inline-block;
+    border: 0 none;
+    vertical-align: middle;
+}
+input{
+    border: 1px solid #ccc;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+#container{
+    width:1212px;
+    margin:0 auto;
+}
+#container #ColumnContainer{
+    overflow: hidden;
+    margin-left: -13px;
+}
+#container #ColumnContainer .item{
+    float: left;
+    width:230px;
+    height: 358px;
+    margin-left:13px;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+#container .item .box{
+    padding: 4px;
+    border: 1px solid #F3F3F3;
+    position: relative;
+}
+#container .item .box .img{
+    display: block;
+    position: relative;
+    width: 220px;
+    height:220px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+#container .item .box .img i{
+    height:100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+#container .item .box .img img{
+    max-width:100%;
+    max-height:100%;
+}
+#container .item .name{
+    height:36px;
+    padding:8px 6px 0px;
+    line-height:18px;
+    overflow: hidden;
+}
+#container .item .price{
+    font-family:Arial;
+    font-size:24px;
+    color: #ff0000;
+    padding:0 5px;
+    line-height:30px;
+}
+#container .item .price i{
+    font-size:14px;
+}
+#container .item .supp{
+    /*display: none;*/
+    width:100%;
+    height:50px;
+    position: absolute;
+    left:0;
+    bottom: -45px;
+    line-height: 50px;
+    z-index: 999;
+    background: #E8E8E8;
+}
+#container .item .supp a{
+    color: #0006FF;
+    margin-left: 10px;
+}
+.f1{
+    float: left;
+}
+#container .item .follow{
+    position: absolute;
+    right: 10px;
+    top:14px;
+    background: #E9781B;
+    height:22px;
+    line-height: 22px;
+    color: #fff;
+    display: inline-block;
+    padding:0 11px;
+    -webkit-border-radius:11px;
+    -moz-border-radius:11px;
+    border-radius:11px;
+    cursor: pointer;
+}
+#container .item .follow i{
+    float: left;
+    background: url(../images/cheongsam/ico_gz.png) no-repeat;
+    width:10px;
+    height:9px;
+    margin:7px 4px 0 0;
+}
+/*分页与页码*/
+.pb30{
+    padding-bottom: 30px;
+}
+.pt20{
+    padding-top: 20px;
+}
+.tc{
+    text-align: center;
+}
+.ks-button{
+    padding:4px 10px 4px;
+    font-size:12px;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    border-radius: 4px;
+    cursor: pointer;
+    outline:none;
+}
+.paging .pagepre,.paging .pagenext{
+    width:60px;
+}
+.paging a,.paging .page-cur{
+    display: inline-block;
+    height:25px;
+    line-height: 25px;
+    text-align: center;
+    color: #565656;
+    border:1px solid #ccc;
+    margin:0 6px;
+    font-family:Arial;
+    text-decoration: none;
+    vertical-align: middle;
+}

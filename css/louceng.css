@@ -1,0 +1,10 @@
+#LoutiNav{ border: 1px solid #d5d5d5;background: #fff; width: 39px; position: fixed; top: 150px; left: 0px; display: none;z-index: 1000;}
+#LoutiNav li{ width: 39px; height: 39px;border-bottom: 1px solid #d5d5d5; line-height: 39px; text-align: center; cursor: pointer;}
+#LoutiNav span{display: none;font-size: 14px;line-height: 16px;height: 34px;}
+#LoutiNav .active{background: #e81a62; color: #fff;}
+#LoutiNav .active span{display: block;}
+#LoutiNav .active i{display: none;}
+#LoutiNav li:hover span{display: block; font-size: 14px; background: #e81a62; color: white;}
+#LoutiNav li:hover i{display: none;}
+.louceng{ height: 559px; width: 100%;text-align: center; line-height: 559px; font-size: 120px; margin: 0 auto;}
+#main{position: absolute;top:0;left:0;z-index: -100;}

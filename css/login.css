@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+}
+.wrap960 {
+    width: 960px;
+    margin: 0 auto;
+}
+.header{
+    height:90px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.logo_1 {
+    padding: 22px 0 0;
+}
+.fl {
+    float: left;
+    display: inline;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+.logo_1 a {
+    width: 187px;
+    height: 68px;
+    display: block;
+    background: url(../images/logonewb.png) no-repeat;
+    text-indent: -999em;
+    overflow: hidden;
+}
+a {
+    outline: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #302C34;
+    cursor: pointer;
+}
+.header .tit {
+    height: 45px;
+    line-height: 45px;
+    font-family: "微软雅黑";
+    font-size: 30px;
+    color:#a9a9a9;
+    padding-left: 22px;
+    margin-top: 25px;
+}
+#bgDiv{
+    background: url(../images/log_17.png) no-repeat center center;
+    width: auto;
+    position: relative;
+    height: 455px;
+}
+.lg_box {
+    width: 421px;
+    height:auto;
+    border-top: 2px solid #D3D3D3;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #fff;
+    text-align: left;
+    left: -53px;
+    padding-bottom: 50px;
+}
+.pt50 {
+    padding-top: 50px;
+}
+.pr {
+    position: relative;
+}
+.fr {
+    float: right;
+    display: inline;
+}
+.go_logtxt {
+    position: absolute;
+    left: 65px;
+    top: -28px;
+}
+.go_logtxt span {
+    color: #da3e49;
+    font-size: 16px;
+}
+a:hover {
+    text-decoration: underline;
+}
+.go_reg a {
+    color: #5b5b5b;
+    font-size: 16px;
+}
+.go_reg {
+    position: absolute;
+    right: 80px;
+    top: -28px;
+    color: #B7B7B7;
+}
+.bartop{
+    background: url(../images/bartop.png) no-repeat;
+    height: 8px;
+    left: -1px;
+    position: absolute;
+    top: -7px;
+    width: 213px;
+    z-index: 99;
+}
+.lg_form {
+    width: 324px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.lg_form .item {
+    position: relative;
+    height: 50px;
+    padding-left: 50px;
+    border: 1px solid #D3D3D3;
+    padding-bottom: 0;
+    background: #f3f3f3;
+}
+.lg_form .item .ico_un {
+    background-position: 0 0;
+}
+.lg_form .item i {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    background: url(../images/newico_lg.png) no-repeat 0 0;
+    width: 20px;
+    height: 23px;
+}
+em, i {
+    font-style: normal;
+}
+.lg_form .item #username, .lg_form .item #password {
+    padding-left: 10px;
+    width: 265px;
+    position: absolute;
+    right: 0;
+}
+.lg_form .item .txt {
+    float: left;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    padding: 15px 0;
+    border: none;
+    background: #fff;
+    color: #ababab;
+}
+a, input[type="button"], textarea, input[type="text"] {
+    outline: none;
+}
+input, img {
+    vertical-align: middle;
+}
+#error_ds {
+    color: #d54046;
+    font-size: 13px;
+    left: 50px;
+    position: absolute;
+    top: 60px;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+.lg_form .item .ico_psw {
+    background-position: 0 -23px;
+}
+a:hover {
+    text-decoration: underline;
+}
+.lg_form .btn {
+    text-indent: 0;
+    width: 325px;
+    height: /*42px*/54px;
+    line-height: 30px;
+    display: block;
+    background: /*#E91B1B*/#c23741;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 24.08px;
+    font-family: "微软雅黑";
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btnSubmit {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.lg_form .btn:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+.textDiv {
+    color: #919191;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.mt5 {
+    margin-top: 5px;
+}
+ol, ul, li {
+    list-style: none;
+}
+.textDiv ul.listDiv li {
+    float: left;
+}
+.ml_20 {
+    margin-left: 20px;
+}
+.textDiv ul.listDiv li a {
+    color: #919191;
+    display: block;
+}
+/*footer*/
+.footer, .footer a {
+    padding-top: 40px;
+    color: #636262;
+}
+.mb24  a{
+    font-size: 12px;
+}
+.copyright {
+    line-height: 22px;
+    font-family: "宋体";
+}
+.tc {
+    text-align: center;
+}

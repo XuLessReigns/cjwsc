@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    overflow: hidden;
+    background:#fafafa;
+}
+.wrap{
+    width:970px;
+    height:147px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+}
+.header{
+    padding-top:20px;
+}
+.logo{
+    padding:0;
+}
+.fl{
+    float:left;
+    display:inline;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+a {
+    outline: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #302C34;
+    cursor: pointer;
+}
+.logo a{
+    position: relative;
+    top: -10px;
+    width: 187px;
+    height: 68px;
+    display: block;
+    background: url(../images/logonewb.png) no-repeat;
+    text-indent: -999em;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.header .tit{
+    font-family:"微软雅黑";
+    font-size: 30px;
+    color: #a9a9a9;
+    padding-left: 22px;
+    margin-top: 40px;
+}
+.reg_box{
+    z-index:3;
+    margin:0 auto;
+    position:relative;
+}
+.lg_box_reg {
+    width: 990px;
+    border: 1px solid #D3D3D3;
+    background: #fff;
+    position: relative;
+}
+.go_reg_l{
+    position: absolute;
+    right:0;
+    top:-25px;
+    color:#5b5b5b;
+}
+.blue{
+    color:#0854BB;
+}
+.reg_tab{
+    height: 32px;
+    position:absolute;
+    top:-33px;
+    left:350px;
+}
+ol, ul, li {
+    list-style: none;
+}
+.reg_tab .cur {
+    border-top: 1px solid #d94048;
+    border-left: 1px solid #d94048;
+    border-right: 1px solid #d94048;
+    color: #d94048;
+}
+.reg_tab li{
+    background: #fff;
+    float: left;
+    height: 32px;
+    width: 87px;
+    font-size: 12px;
+    color: #6c6c6c;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    text-align: center;
+    line-height: 32px;
+}
+.lg_form_reg {
+    height: auto;
+    padding-bottom: 30px;
+    background: none;
+    width: 500px;
+    text-align: left;
+    padding-left: 94px;
+    margin-top: 70px;
+}
+.reg_form{
+    width:450px;
+}
+.lg_form_reg .tipsInfo{
+    position: absolute;
+    left: 150px;
+    top: -40px;
+    margin: 0;
+    white-space: nowrap;
+}
+.reg_box .tipsInfo, .reg_box .tipsInfo2 {
+    background: url("../images/ico_tips2.png") no-repeat scroll 8px 7px #ffffe3;
+    border: 1px solid #ffcc99;
+    color: #666;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 28px;
+    padding: 0 8px 0 28px;
+    vertical-align: middle;
+}
+.reg_form_new .item {
+    position: relative;
+}
+.mb24{
+    padding-bottom: 24px;
+}
+.reg_form_new .width_100 {
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: right;
+}
+.reg_form_new .item #start_1 {
+    left: 35px;
+}
+.reg_form_new .item #start_1, .reg_form_new .item #start_2, .reg_form_new .item #start_3, .reg_form_new .item #start_4, .reg_form_new .item #start_5 {
+    color: #da3e49;
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+}
+em, i {
+    font-style: normal;
+}
+.reg_form_new .item label {
+    color: #5b5b5b;
+    font-size: 14px;
+    font-family: "å®‹ä½“";
+}
+.reg_form_new .item input[type="text"], .reg_form_new .item input[type="password"] {
+    height: 35px;
+    width: 235px;
+    line-height: 35px;
+    border: 1px solid #dddddd;
+    padding-left: 10px;
+    color: #ababab;
+}
+a, input[type="button"], textarea, input[type="text"] {
+    outline: none;
+}
+input, img {
+    vertical-align: middle;
+}
+.reg_form_new .item #start_5 {
+    left: 7px;
+}
+.reg_form_new .item input[type="text"].lastipt {
+    width: 235px;
+}
+.get-Message {
+    display: block;
+    right: 156px;
+    top: 4px;
+    height: 30px;
+    line-height: 30px;
+    color: #5b5b5b;
+    background: #dddddd;
+    text-align: center;
+    width: 80px;
+    position: absolute;
+}
+.pr {
+    font-size:12px;
+}
+.reg_form_new .item #start_2, .reg_form_new .item #start_3{
+    left: 23px;
+}
+.reg_form_new .ml_120 {
+    margin-left: 100px;
+}
+.lh18 {
+    line-height: 18px;
+}
+.c_9 {
+    color: #999;
+    font-size: 12px;
+}
+input[type="checkbox"], input[type="radio"] {
+    vertical-align: -2px;
+}
+.blue{
+    color:#0854BB;
+}
+a:hover {
+    text-decoration: underline;
+}
+.reg_form_new a.btn:hover {
+    text-decoration: none;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+.mt38 {
+    margin-top: 38px;
+}
+.reg_form_new a.btn {
+    background: #c33742;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    height: 40px;
+    line-height: 35px;
+    margin-left: 100px;
+    text-align: center;
+    width: 245px;
+    border-radius: 5px;
+}
+.btnSubmit {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.lg_box_reg .adDiv {
+    width:414px;
+    position: absolute;
+    top: 59px;
+    right: 85px;
+    height:310px;
+}
+/*footer*/
+.footer, .footer a {
+    padding-top: 40px;
+    color: #636262;
+}
+.mb24  a{
+    font-size: 12px;
+}
+.copyright {
+    line-height: 22px;
+    font-family: "宋体";
+}
+.tc {
+    text-align: center;
+}

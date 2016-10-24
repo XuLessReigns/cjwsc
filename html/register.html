@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎注册</title>
+    <link rel="stylesheet" type="text/css" href="../css/register.css">
+</head>
+<body>
+    <div class="wrap clearfix">
+        <div class="header">
+            <h1 class="logo fl">
+                <a href="javascript:;">厂家网,让消费致富成为现实</a>
+            </h1>
+            <b class="tit fl">欢迎注册</b>
+        </div>
+    </div>
+    <div class="lg_box_reg reg_box clearfix" id="box_reg">
+            <p class="go_reg_l">
+                已经有帐号？请直接
+                <a class="blue" href="login.html">登录</a>
+            </p>
+            <ul id="tab_reg" class="reg_tab">
+                <li class="cur" val="1">个人用户</li>
+                <li val="2">供应商用户</li>
+            </ul>
+            <div class="lg_form_reg" id="registerForm">
+                <div class="reg_form_new">
+                    <div class="tipsInfo" style="display:none;"></div>
+                    <div class="item clearfix mb24">
+                        <p class="fl width_100">
+                            <i id="start_1">*</i>
+                            <label>手机号：</label>
+                        </p>
+                        <input type="text" alias="手机号" reg="mobile" class="txt_r" id="phone" placeholder="手机号码" maxlength="11">
+                    </div>
+                    <div class="item clearfix bdb_n mb24">
+                        <p class="fl width_100">
+                            <i id="start_5">*</i>
+                            <label>短信验证码：</label>
+                        </p>
+                        <input type="text" class="txt txtfb lastipt" id="phoneCode" reg="no" maxlength="4">
+                        <a class="pr get-Message" id="getPhoneCode">获取验证码</a>
+                        <input type="hidden" id="code2" value=""/>
+                    </div>
+                    <div class="item clearfix mb24">
+                        <p class="fl width_100">
+                            <i id="start_2">*</i>
+                            <label>登录密码：</label>
+                        </p>
+                        <input type="password" alias="密码" reg="password" class="txt_r" name="password1" id="userpwd" placeholder="6-20个大小写英文字母、符号或数字">
+                    </div>
+                    <div class="item clearfix mb24">
+                        <p class="fl width_100">
+                            <i id="start_3">*</i>
+                            <label>确认密码：</label>
+                        </p>
+                        <input type="password" alias="密码" reg="password" class="txt_r" name="password2" id="userpwd1" placeholder="请再次输入密码">
+                    </div>
+                    <div class="ofh lh18 parentsNode ml_120 clearfix" alias="同意厂家网用户注册协议">
+                        <label class="fl c_9">
+                            <input type="checkbox" id="agree" checked="checked">
+                            我已阅读并同意
+                            <a class="blue" target="_blank" href="/page/register_rule">《厂家网用户注册协议》</a>
+                        </label>
+                    </div>
+                    <div class="mt38">
+                        <a class="btn btnSubmit" href="javascript:;" id="btn_reg">注 册</a>
+                    </div>
+                    <div class="adDiv">
+                        <a href="javascript:;">
+                            <img src="../images/QA_25.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!---footer--->
+    <div class="footer">
+        <p class="mb24" style="text-align: center;">
+            <a rel="nofollow" href="javascript:;" target="_blank">关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a rel="nofollow" href="javascript:;" target="_blank">联系客服</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a rel="nofollow" href="javascript:;" target="_blank">商家入驻</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a rel="nofollow" href="javascript:;" target="_blank">隐私保护</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a rel="nofollow" href="javascript:;" target="_blank">免责条款</a>
+            &nbsp;&nbsp;|&nbsp;&nbsp;<a rel="nofollow" href="javascript:;" target="_blank">快递查询</a>
+        </p>
+        <p style="font-size:12px;margin-top"20px; class="copyright tc">版权所有 厂家网商城 保留所有版权 ICP备案证书号:粤ICP备12093889号</p>
+        <p style="font-size:12px;text-align: center;">Copyright © 2012-2013 www.cjwsc.com,All Rights Reserved</p>
+    </div>
+    <script src="../js/zhuce.js"></script>
+    <script src="../js/regExpManger.js"></script>
+</body>
+</html>

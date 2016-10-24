@@ -1,0 +1,160 @@
+[
+  [
+    {"names":"首页","get":"http://www.cjwsc.com/"},
+    {"names":"家用电器","get":"http://www.cjwsc.com/"},
+    {"names":"厨用电器","get":"http://www.cjwsc.com/"},
+    {"names":"面包机","get":"http://www.cjwsc.com/"},
+    {"names":"诺思得其Nostalgia Electrics","get":"http://www.cjwsc.com/"}
+  ],
+    {
+      "img":"../images/ppai_pic.jpg",
+      "get":"http://www.cjwsc.com/lists/2886-0-0.html"
+    }
+   ,
+  {
+    "title":"E-LONG双向快充移动电源小充电宝TYPE-C移动电源8000薄款QC3.0快充","price":"85.00",
+     "prices":"136.00","hot":"包邮","hint":"E-LONG创意个性可定制TYPE-C移动电源轻薄金属外观  如需定制，请与客服联系！",
+    "pid":"97735","origin":"广东-深圳市","count":"56","fwshang":"中兴"
+  },
+  [
+    "颜色"
+  ,
+    "<img  style=\"width:30px;\"class=\"fl\" src=\"../images/shaop_details/col_1.jpg\"><b class=\"shop_color_name fl\">粉红色</b>"
+    ,
+    "<img  style=\"width:30px;\"class=\"fl\" src=\"../images/shaop_details/col_2.jpg\"><b class=\"shop_color_name fl\">紫色</b>"
+  ,
+   "<img  style=\"width:30px;\"class=\"fl\" src=\"../images/shaop_details/col_3.jpg\"><b class=\"shop_color_name fl\">银色</b>"
+  ,
+    "<img  style=\"width:30px;\"class=\"fl\" src=\"../images/shaop_details/col_4.jpg\"><b class=\"shop_color_name fl\">宝蓝色</b>"
+  ,
+    "<img  style=\"width:30px;\"class=\"fl\" src=\"../images/shaop_details/col_5.jpg\"><b class=\"shop_color_name fl\">土豪金</b>"
+  ],
+  [
+  "容积",
+    "8000mah"
+  ],
+  [
+    [
+      ["../images/shaop_details/col1_small.jpg","../images/shaop_details/col1_tool.jpg"],
+      ["../images/shaop_details/col2_small.jpg","../images/shaop_details/col2_tool.jpg"],
+      ["../images/shaop_details/col3_small.jpg","../images/shaop_details/col3_tool.jpg"],
+      ["../images/shaop_details/col4_small.jpg","../images/shaop_details/col4_tool.jpg"]
+    ],
+    [
+      ["../images/shaop_details/col2_1_samll.jpg","../images/shaop_details/col2_1_tool.jpg"],
+      ["../images/shaop_details/col2_2_samll.jpg","../images/shaop_details/col2_2_tool.jpg"],
+      ["../images/shaop_details/col2_3_samll.jpg","../images/shaop_details/col2_3_tool.jpg"],
+      ["../images/shaop_details/col2_4_samll.jpg","../images/shaop_details/col2_4_tool.jpg"]
+    ],
+    [
+    ["../images/shaop_details/col3_1_small.jpg","../images/shaop_details/col3_1_tool.jpg"],
+    ["../images/shaop_details/col3_2_small.jpg","../images/shaop_details/col3_2_tool.jpg"],
+    ["../images/shaop_details/col3_3_small.jpg","../images/shaop_details/col3_3_tool.jpg"],
+    ["../images/shaop_details/col3_4_small.jpg","../images/shaop_details/col3_4_tool.jpg"]
+    ],
+    [
+      ["../images/shaop_details/col4_1_small.jpg","../images/shaop_details/col4_1_tool.jpg"],
+      ["../images/shaop_details/col4_2_small.jpg","../images/shaop_details/col4_2_tool.jpg"],
+      ["../images/shaop_details/col4_3_small.jpg","../images/shaop_details/col4_3_tool.jpg"],
+      ["../images/shaop_details/col4_4_small.jpg","../images/shaop_details/col4_4_tool.jpg"]
+    ],
+    [
+      ["../images/shaop_details/col5_1_small.jpg","../images/shaop_details/col5_1_tool.jpg"],
+      ["../images/shaop_details/col5_2_small.jpg","../images/shaop_details/col5_2_tool.jpg"],
+      ["../images/shaop_details/col5_3_small.jpg","../images/shaop_details/col5_3_tool.jpg"],
+      ["../images/shaop_details/col5_4_small.jpg","../images/shaop_details/col5_4_tool.jpg"]
+    ]
+  ],
+  [
+    {"pic":"../images/details_lunb/lunbo_1.jpg","title":"好斯美（HASMINE) VR眼镜虚拟现实 头戴式3D游戏头盔一体魔镜 可调瞳距",
+    "geturl":"http://www.cjwsc.com/item/102102.html","price":"69.00"},
+    {"pic":"../images/details_lunb/lunbo_2.jpg","title":"好斯美（HASMINE) PAC-210安全锤金属车载充电器汽车充双USB电源 迷你车",
+      "geturl":"http://www.cjwsc.com/item/102102.html","price":"49.00"},
+    {"pic":"../images/details_lunb/lunbo_3.jpg","title":"好斯美（Hasmine）MF-S9 迷你商务通话蓝牙耳机 一拖二入耳式",
+      "geturl":"http://www.cjwsc.com/item/102102.html","price":"79.00"},
+    {"pic":"../images/details_lunb/lunbo_4.jpg","title":"好斯美（Hasmine）苹果安卓二合一尼龙数据线",
+      "geturl":"http://www.cjwsc.com/item/102102.html","price":"39.00"},
+    {"pic":"../images/details_lunb/lunbo_5.jpg","title":"好斯美（Hasmine）苹果Lightning尼龙数据线",
+      "geturl":"http://www.cjwsc.com/item/102102.html","price":"29.00"},
+    {"pic":"../images/details_lunb/lunbo_6.jpg","title":"好斯美（Hasmine）安卓MicroUSB尼龙数据线",
+      "geturl":"http://www.cjwsc.com/item/102102.html","price":"29.00"},
+    {"pic":"../images/details_lunb/lunbo_7.jpg","title":"好斯美（Hasmine）PB-810水印版 8000mAh 大容量双USB接口通用移动电源充",
+      "geturl":"http://www.cjwsc.com/item/102102.html","price":"108.00"},
+    {"pic":"../images/details_lunb/lunbo_8.jpg","title":"好斯美（Hasmine）PB-810 8000mAh 大容量双USB接口通用移动电源充电宝",
+      "geturl":"http://www.cjwsc.com/item/102102.html","price":"99.00"},
+    {"pic":"../images/details_lunb/lunbo_9.jpg","title":"好斯美（Hasmine）A2 10000mAh 大容量双USB接口通用支架移动电源充电宝",
+      "geturl":"http://www.cjwsc.com/item/102102.html","price":"118.00"},
+    {"pic":"../images/details_lunb/lunbo_10.jpg","title":"好斯美（Hasmine）A1 7000mAh 大容量双USB接口通用支架移动电源充电宝",
+      "geturl":"http://www.cjwsc.com/item/102102.html","price":"95.00"},
+    {"pic":"../images/details_lunb/lunbo_11.jpg","title":"飞利浦DLP2357手机充电器一拖二3.1A 苹果ipad通用点烟器车充",
+      "geturl":"http://www.cjwsc.com/item/102102.html","price":"60.00"},
+    {"pic":"../images/details_lunb/lunbo_12.jpg","title":"飞利浦车载手机支架出风口卡扣式仪表台吸盘式导航仪汽车支架",
+      "geturl":"http://www.cjwsc.com/item/102102.html","price":"69.00"}
+  ],
+  [
+    {
+      "pic":"../images/details_tj/01.jpg","title":"好斯美（Hasmine）PB-810水印版 8000mAh 大容量双USB接口通用移动电源充",
+      "price":"108.00","geturl":"/item/102092.html"
+    },
+    {
+      "pic":"../images/details_tj/02.jpg","title":"华美H19 小猪移动电源5000mAh迷你充电宝智能手机通用 女神专属",
+      "price":"99.00","geturl":"/item/102092.html"
+    },
+    {
+      "pic":"../images/details_tj/03.jpg","title":"I-CUE 艾可优 G15 18000MAH大容量带显示移动电源",
+      "price":"89.00","geturl":"/item/102092.html"
+    },
+    {
+      "pic":"../images/details_tj/04.jpg","title":"I-CUE 艾可优 G13 12000MAH大容量带显示移动电源",
+      "price":"89.00","geturl":"/item/102092.html"
+    },
+    {
+      "pic":"../images/details_tj/05.jpg","title":"I-CUE 艾可优 G19XK 6000MAH聚合物移动电源",
+      "price":"79.00","geturl":"/item/102092.html"
+    },
+    {
+      "pic":"../images/details_tj/06.jpg","title":"I-CUE 艾可优 G18  8800MAH大容量跑车移动电源",
+      "price":"58.00","geturl":"/item/102092.html"
+    }
+  ],
+  [
+    {
+      "pic":"../images/details_tj/011.jpg","title":"联想（ThinkPad ）轻薄系列E45014英寸笔记本电脑",
+      "price":"3899.00","geturl":"http://www.cjwsc.com/item/97735.html"
+    },
+    {
+      "pic":"../images/details_tj/012.jpg","title":"联想ThinkPad E45073CD升级版商务轻薄游戏14英寸笔记本电脑 i3-5005 4G 500G",
+      "price":"3300.00","geturl":"http://www.cjwsc.com/item/97735.html"
+    },
+    {
+      "pic":"../images/details_tj/013.jpg","title":"(千城万店专享)联想(Lenovo)小新出色版510S 14英寸超轻薄笔记本电脑（I",
+      "price":"4389.00","geturl":"http://www.cjwsc.com/item/97735.html"
+    },
+    {
+      "pic":"../images/details_tj/014.jpg","title":"荣耀 V8 4GB+32GB  移动联通4G手机 双卡双待双通",
+      "price":"2498.00","geturl":"http://www.cjwsc.com/item/97735.html"
+    },
+    {
+      "pic":"../images/details_tj/015.jpg","title":"联想（Lenovo）H3050台式电脑（i3-4170 4G 500G 集显 DVD 千兆网卡 Win10）23",
+      "price":"3839.00","geturl":"http://www.cjwsc.com/item/97735.html"
+    },
+    {
+      "pic":"../images/details_tj/016.jpg","title":"华为 P9 plus 64GB  移动联通电信4G手机 双卡双待",
+      "price":"4298.00","geturl":"http://www.cjwsc.com/item/97735.html"
+    }
+  ],
+  [
+    "../images/details_content/01.jpg","../images/details_content/02.jpg",
+    "../images/details_content/04.jpg",
+    "../images/details_content/05.jpg","../images/details_content/06.jpg",
+    "../images/details_content/07.jpg","../images/details_content/08.jpg",
+    "../images/details_content/09.jpg","../images/details_content/010.jpg",
+    "../images/details_content/011.jpg","../images/details_content/012.jpg",
+    "../images/details_content/013.jpg","../images/details_content/014.jpg",
+    "../images/details_content/015.jpg"
+  ],
+  [
+    "../images/details_content/shfw1.png"
+  ]
+
+]

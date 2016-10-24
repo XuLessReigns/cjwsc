@@ -1,0 +1,297 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img ,input{
+    margin:0;
+    padding:0;
+    font-weight: normal;
+}
+img {
+    border:none;
+    display: block;
+}
+ul, ol {
+    list-style:none;
+}
+body,html {
+    font-family:"Microsoft YaHei","Arial";
+    width:100%;
+    height:auto;
+    background:#ededed;
+    font-size: 12px;
+}
+a {
+    color: #000;
+    text-decoration:none;
+}
+input{
+    border: 0;
+    outline: none;
+}
+i{
+    font-style: normal;
+}
+em{
+    font-style:normal;
+}
+/*以上清除默认样式*/
+
+.picture{
+    width:100%;
+    height:300px;
+}
+.pic{
+    width:100%;
+    overflow:hidden;
+}
+.pic img{
+    margin:0 auto 0 -150px;
+}
+/*版心*/
+.container{
+    width:1200px;
+    height:auto;
+    background:#fff;
+    margin:0 auto;
+    margin-bottom:40px;
+}
+/*头部*/
+.first{
+    width:1200px;
+    height:40px;
+    background:#ededed;
+    padding-top:28px;
+}
+.breadcrumbs{
+    width:1200px;
+    height:20px;
+    color:#515151;
+    font-size:14px;
+}
+.breadcrumbs a:hover{
+    text-decoration:underline;
+}
+/*内容区域*/
+.page{
+    width:1094px;
+    height:1923px;
+    border-bottom:1px dashed #ededed;
+    padding:63px 53px 70px 53px;
+}
+.clearfix{
+    width:100%;
+    height:250px;
+}
+.clearfix img{
+    float:left;
+}
+.clearfix-right{
+    width:724px;
+    height:240px;
+    padding:10px 0 0 20px;
+    float:left;
+}
+.clearfix p{
+    float:right;
+    width:724px;
+    height:auto;
+    color:#646464;
+    font-size:13px;
+    text-indent:30px;
+    line-height:180%;
+}
+.page .mt{
+    margin-top:30px;
+    height:298px;
+}
+.fontSize_18{
+    font-size:18px;
+    font-weight:bold;
+}
+.page .mt ul{
+    margin-top:23px;
+}
+.page .mt ul li+li{
+    float:left;
+    margin-left:22px;
+}
+.page .md{
+    height:219px;
+}
+.page .md p{
+    float:left;
+    text-indent: 0;
+}
+.page .md .fontWeight_bold{
+    font-weight:bold;
+    color:#323232;
+}
+.page .mz{
+    height:389px;
+}
+.floatleft{
+    float:left;
+    width:609px;
+}
+.page .mz p{
+    float:left;
+    width:609px;
+}
+.topbig{
+    margin-top:185px;
+}
+.page .mz img{
+    float:right;
+}
+/*职位要求*/
+.memcont{
+    width:1094px;
+    height:343px;
+    border-bottom:1px dashed #ededed;
+    padding:63px 53px 70px 53px;
+}
+.memcont img{
+    float:left;
+}
+.memcontright{
+    float:left;
+    line-height:180%;
+    margin-left:60px;
+}
+.mt_23{
+    margin-top:23px;
+    color:#656565;
+}
+.memcontright p{
+    color:#656565;
+    width:815px;
+    font-size:13px;
+}
+.marginTop{
+    margin-top:10px;
+}
+.mt_16{
+    margin-top:16px;
+}
+.memcontright .redcolor{
+    color:#da3d48;
+    font-size:18px;
+    font-weight:bold;
+}
+.email-box{
+    height:200px;
+    border-bottom:0;
+}
+.email{
+    color:#1571ef;
+}
+.email:hover{
+    text-decoration:underline;
+}
+/*结尾*/
+.footer_back{
+    width:100%;
+    height:368px;
+    background:#272727;
+}
+.footer{
+    width:1200px;
+    height:288px;
+    padding:40px 0;
+    margin:0 auto;
+}
+.weixinbox{
+    width:1200px;
+    height:143px;
+    margin-top:30px;
+}
+.weixinbox dl{
+    width:350px;
+    height:143px;
+    float:left;
+}
+.weixinbox dt{
+    float:left;
+}
+.weixinbox dt img{
+    width:128px;
+}
+.weixinbox dd{
+    width:207px;
+    height:143px;
+    margin-left:15px;
+    float:left;
+}
+.weixinbox dd p{
+    width:207px;
+    margin-top:15px;
+    font-size:18px;
+    color:#fff;
+}
+.weixinbox dd .gouwu{
+    font-size:14px;
+}
+.kehu{
+    margin-top:23px;
+}
+.kehu span {
+    float: left;
+    width: 91px;
+    height: 26px;
+    border: 1px solid #8f8f8f;
+    color:#fff;
+    line-height:26px;
+    text-indent:35px;
+}
+.kehu span+span{
+    margin-left:10px;
+}
+.iphone{
+    background:url(../images/iPhonew.png) no-repeat 10px center;
+}
+.android{
+    background:url(../images/Androidw.png) no-repeat 10px center;
+}
+.kehu span:hover{
+    color:#ce3b45;
+    border:1px solid #ce3b45;
+}
+.kehu .iphone:hover {
+    background:url(../images/iPhoneRed.png) no-repeat 10px center;
+}
+.kehu .android:hover {
+    background:url(../images/AndroidRed.png) no-repeat 10px center;
+}
+.weixinbox dd .weixin{
+    margin-top:0;
+}
+.weixinbox dd .diffwidth{
+    width:282px;
+}
+.weixinbox .dldiffwidth{
+    width:425px;
+}
+.weixinbox .diffDdiff{
+    width:282px;
+}
+/*底部*/
+.itemfooter{
+    width:1200px;
+    height:20px;
+    margin-top:45px;
+    text-align:center;
+    color:#fff;
+    font-size:14px;
+}
+.itemfooter a{
+    color:#fff;
+}
+.fontSize_14{
+    width:1200px;
+    height:40px;
+    margin-top:10px;
+    color:#fff;
+    text-align:center;
+    font-size:14px;
+}
+
+
+
+

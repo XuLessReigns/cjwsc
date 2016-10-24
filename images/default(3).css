@@ -1,0 +1,131 @@
+.tshop-um-sys_login .sys_login{overflow: hidden;}
+.tshop-um-sys_login .wrap{ width:850px;}
+.tshop-um-sys_login .tit{ height:45px; line-height:45px; font-family:"微软雅黑"; font-size:26px; color:#767676; padding-left:22px; border-left:1px solid #ddd; margin:35px 0 0 22px;}
+
+/*登录*/
+.tshop-um-sys_login .w382{ width:382px;}
+
+.tshop-um-sys_login .lg_box{ width:448px; min-height:300px; border:1px solid #D3D3D3; background:#fff; text-align:left;}
+.tshop-um-sys_login .go_reg{ position:absolute; right:0; top:-22px; color:#B7B7B7;}
+.tshop-um-sys_login .lg_form{ width:324px; margin-left:auto; margin-right:auto; position:relative;}
+.tshop-um-sys_login .lg_form .item{ position:relative; height:50px; padding-left:48px; border:1px solid #D3D3D3;padding-bottom: 0;}
+.tshop-um-sys_login .lg_form .bdb_n{ border-bottom:none;}
+.tshop-um-sys_login .lg_form .item i{ position:absolute; left:14px; top:15px; background:url(../images/ico_lg.png) no-repeat 0 0; width:16px; height:18px;}
+.tshop-um-sys_login .lg_form .item .ico_un{ background-position:0 -1px;}
+.tshop-um-sys_login .lg_form .item .ico_psw{ background-position:0 -23px;}
+.tshop-um-sys_login .lg_form .item .txt{ float:left; width:100%; height:20px; line-height:20px; padding:15px 0; border:none; background:#fff; color:#A2A2A2;}
+.tshop-um-sys_login .lg_form .item .txt:focus{ color:#333;}
+.tshop-um-sys_login .lg_form .btn{text-indent:0;width: 325px; height:42px; line-height:42px; display:block; background:#E91B1B; color:#fff; font-size:18px; font-family:"微软雅黑"; text-align:center; text-decoration:none; font-weight:bold;}
+.tshop-um-sys_login .lg_form .btn:hover{ opacity:0.9; filter:alpha(opacity=90);}
+.tshop-um-sys_login .lg_form .valid_code{ width:90px; padding-left:65px;}
+.tshop-um-sys_login .lg_form .item label{ position:absolute; left:0; top:0; line-height:50px; width:60px; text-align:right; color:#999;}
+.tshop-um-sys_login .lg_form .valid_img{ position:absolute; width:170px; right:-177px; top:-1px;}
+.tshop-um-sys_login .lg_form .valid_img img{ width:120px; height:50px; margin-right:3px; border:1px solid #eee;}
+.tshop-um-sys_login .lg_other p{ padding:15px 0 12px; color:#999;}
+.tshop-um-sys_login .lg_other ul li{ float:left; margin:0 20px 8px 0; white-space:nowrap;}
+.tshop-um-sys_login .lg_other ul li a{ color:#999;}
+.tshop-um-sys_login .lg_other ul li a:hover{ color:#E9781B;}
+
+.tshop-um-sys_login .lg_form .tipsInfo2{ position:absolute; left:0; top:-40px; margin:0; white-space:nowrap;}
+
+/*注册*/
+.tshop-um-sys_login .reg_bg{ background:url(../images/reg_bg.jpg); height:530px; padding-top:50px;}
+.tshop-um-sys_login .reg_box{ width:688px; margin:0 auto;}
+.tshop-um-sys_login .reg_form { width:360px;}
+.tshop-um-sys_login .reg_form .item{ padding-left:76px;}
+.tshop-um-sys_login .reg_form .item label{ width:76px; color:#555;}
+.tshop-um-sys_login .reg_form .valid_code{ width:110px;}
+
+.tshop-um-sys_login .reg_form .tips{ position:absolute; left:76px; top:0; width:282px; line-height:50px; color:#999; }
+
+.tshop-um-sys_login .reg_tab { border-bottom:1px solid #EBEBEB; height:60px; margin-bottom:50px; padding-left:60px;}
+.tshop-um-sys_login .reg_tab li{ float:left; width:160px; line-height:50px; padding-top:7px; font-size:18px; font-family:"微软雅黑"; color:#999; text-align:center; cursor:pointer; border-bottom:3px solid #fff; font-weight:bold;}
+.tshop-um-sys_login .reg_tab .cur{ border-bottom-color:#B8B8B8; color:#333;}
+.tshop-um-sys_login .reg_tab li:hover{ color:#333;}
+
+.tshop-um-sys_login .cjw_bz{ right:-64px; top:100px;}
+
+
+.tshop-um-sys_login .box_lg .tips3 {
+    left: 138px;
+    top: 74px;
+}
+.tshop-um-sys_login .box_lg .tips,.tshop-um-sys_login  .box_lg .tips3,.tshop-um-sys_login  .tips4 {
+    background: url("../../../../assets/images/ico_tip.png") no-repeat scroll 8px -31px #ffffe3;
+    border: 1px solid #fc9;
+    color: #6d6d6d;
+    right:0;
+    line-height: 26px;
+    padding: 0 10px 0 28px;
+    position: absolute;
+    top: 0;
+}
+
+.tshop-um-sys_login .box_lg  .lab{
+    font-size: 12px;
+}
+
+.tshop-um-sys_login .reg_box .tipsInfo,.tshop-um-sys_login .reg_box  .tipsInfo2{
+    background: url("../images/ico_tips2.png") no-repeat scroll 8px 7px #ffffe3;
+    border: 1px solid #ffcc99;
+    color: #666;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 28px;
+    padding: 0 8px 0 28px;
+    vertical-align: middle;
+}
+
+
+.ks-popup {
+    /*
+    width: 670px;
+    height: 600px;
+    */
+    z-index: 10000369;
+}
+
+.ks-popup-content {
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.5);
+    background-color: #ddd\0/;
+    *background-color: #ddd;
+    display: none;
+}
+
+.ks-overlay-content {
+    height: 560px;
+    /*  overflow-y: auto;
+      overflow-x: hidden;
+      */
+    background: #fff;
+}
+
+.ks-popup-content .close_pop{
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+.tb-stdmod-header{
+    background-color:rgba(0, 0, 0, 0.7);
+    background-color: #2D2D2D\0/;
+    *background-color: #2D2D2D;
+    color: #FFFFFF;
+    cursor: move;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 12px;
+    z-index: 2;
+}
+.ks-overlay-hidden {
+    visibility: hidden;
+}
+

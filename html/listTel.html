@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/listTel.css" />
+		<link rel="stylesheet" href="../css/common.css">
+		<script type="text/javascript" src="../js/jquery-1.12.4.js"></script>
+		<script type="text/javascript" src="../js/listTel.js"></script>
+	</head>
+
+	<body>
+	<!--header-->
+	<div id="header_back">
+		<div id="header">
+			<ul class="header_left">
+				<li class="header_p">
+					<a class="mobile_client cap" target="_blank" href="javascript:;">
+						<i class="ico_tel"></i>
+						移动客户端
+						<i class="arr"></i>
+					</a>
+					<div class="subset">
+						<img class="ewm" src="../images/APP_1.png" width="84px"/>
+						<p class="ewm_font">
+							厂家网商城移动app
+							<span class="red">扫扫有惊喜哦！</span>
+						</p>
+					</div>
+				</li>
+				<li class="header_p">
+					<a class="weChat cap">
+						<i class="ico_tel"></i>
+						微信服务号
+						<i class="arr"></i>
+					</a>
+					<div class="subset">
+						<img class="ewm" src="../images/qr3.png" width="84px"/>
+						<p class="ewm_font">
+							更便捷的尊享服务
+							<span class="red">免费奖品兑换！</span>
+						</p>
+					</div>
+				</li>
+				<li class="header_p">
+					<a href="javascript:;">
+						<i class="ico_wb"></i>
+						官方微博
+					</a>
+				</li>
+				<li>
+					欢迎光临厂家网
+					<span class="top_user_info">
+                        <a href="login.html" target="_blank" class="c_org">请登录</a>
+                    </span>
+					<a href="register.html" target="_blank" class="ml_10">免费注册</a>
+				</li>
+			</ul>
+			<ul class="header_right">
+				<li class="noborder">
+					<a href="javascript:;">我的订单</a>
+				</li>
+				<li>
+					<a href="javascript:;">我的厂家网</a>
+				</li>
+				<li class="header_p">
+					<a href="javascript:;" class="cap">服务中心<i class="arr"></i></a>
+					<div class="subset sv">
+						<a href="javascript:;" target="_blank">售后服务</a>
+						<a href="javascript:;" target="_blank">在线客服</a>
+						<a href="javascript:;" target="_blank">投诉中心</a>
+						<a href="javascript:;" target="_blank">千城万店</a>
+					</div>
+				</li>
+				<li>
+					<a href="javascript:;">厂家网公告</a>
+				</li>
+				<li>
+					<a href="cjwlt.html" target="_blank">厂家网论坛</a>
+				</li>
+				<li>
+					<a href="javascript:;">客户服务</a>
+				</li>
+				<li class="header_p">
+					<a href="javascript:;" class="cap">网站导航<i class="arr"></i></a>
+					<div class="subset sv">
+						<a href="javascript:;" target="_blank">企业论坛</a>
+						<a href="official.html" target="_blank">企业官网</a>
+						<a href="opening.html" target="_blank">招贤纳士</a>
+						<a href="benefit.html" target="_blank">厂家网公益</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!--LOGO-->
+	<div id="logo_back">
+		<div id="logo">
+			<div class="logo fl">
+				<a href="index.html" style="width: 305px;" class="fl">厂家网,让消费致富成为现实</a>
+			</div>
+			<div class="search fl">
+				<div class="search_top">
+					<input type="text" class="s_txt fl">
+					<a href="javascript:;" class="s_btn fl">搜索</a>
+				</div>
+				<div class="search_bottom">
+					<a href="newly.html" target="_blank" style="color:red;">新季新款</a><i>|</i>
+					<a href="listGuo.html" target="_blank" style="color:#999;">不粘锅</a><i>|</i>
+					<a href="listFood.html" target="_blank" style="color:#999;">休闲零食</a><i>|</i>
+					<a href="bottine.html" target="_blank" style="color:#999;">女靴</a><i>|</i>
+					<a href="cheongsam.html" target="_blank" style="color:red;">旗袍</a><i>|</i>
+					<a href="new_dress.html" target="_blank" style="color:red;">新款连衣裙</a><i>|</i>
+				</div>
+			</div>
+			<div class="l_cart" id="h_cart_container">
+				<div class="h_cart h_rt_md fl">
+					<p class="num">
+						<span class="J_CartNum">0</span>
+					</p>
+					<div class="cap">
+						<a href="goshang.html" target="_blank">购物车</a>
+						<i class="ico_ct"></i>
+					</div>
+					<div class="h_rt_sub " id="h_rt_md_cart">
+						<div class="hdDiv hide" id="hdDiv">
+                            <span class="jijiawh" style="float: right;padding-right: 20px;">
+                                小计：￥
+                                <span class="J_CartTotal">0</span>
+                            </span>
+						</div>
+						<ul class="listNew J_BannerCart">
+							<li class="empty_cart" style="line-height: 50px;">
+								<div style="color:red;height: 50px;display: block;text-align: center;">
+									<i class="ico_ct"></i>
+									亲，请登录后再来查看吧！
+								</div>
+							</li>
+						</ul>
+						<div id="dwDiv" class="dwDiv hide ">
+                            <span>
+                                共<span class="J_CartNum">0</span>件商品
+                            </span>&nbsp;
+							<span class="ml_3 ">
+                                共计：
+                                <span class="fontSize_14 colorRed_da ">
+                                    ￥<span class="J_CartTotal">0</span>
+                                </span>
+                            </span>
+							<a href="javascript:;" class="btn">去购物车>></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--NAV-->
+	<div id="nav_back">
+		<div id="nav">
+			<div class="tb-module tshop-um tshop-um-sys_nav_ch2
+ tshop-um-sys_nav_home ">
+				<div class="sys_nav_ch" style="position:relative">
+					<div class="nav_w" style="background:#da3e49;">
+						<div class="classify">
+							<h2>
+								<a class="category_head">商品所有分类</a>
+							</h2>
+							<ul id="menu" style="display: none;" class="menu">
+								<!--<li class="m1" data-id="1">-->
+								<!--<h3>-->
+								<!--<span style="position:relative;padding-left:25px">-->
+								<!--<i class="shen_li pic_1"></i>-->
+								<!--<a href="javascript:;" target="_blank">服装内衣</a>-->
+								<!--</span>-->
+								<!--</h3>-->
+								<!--<div class="menu_i" id="cat_item_1" style="display: none;">-->
+								<!--<div class="thb clearfix">-->
+								<!--<div class="wh50">-->
+								<!--<span class="ht">-->
+								<!--<a href="javascript:;" target="_blank">服装内衣</a>-->
+								<!--</span>-->
+								<!--</div>-->
+								<!--<div class="wh50 rht">-->
+								<!--<a href="javascript:;" target="_blank">更多</a>-->
+								<!--<i></i>-->
+								<!--</div>-->
+								<!--</div>-->
+								<!--<div class="dlDiv dumascroll clearfix  " id="dumaScrollAreaId_42" style="position: relative;">-->
+								<!--<div id="dumaScrollAreaId_42Area" class="dumascroll_area">-->
+								<!--<div class="fl">-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">内衣</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank">文胸</a>-->
+								<!--<a href="javascript:;" target="_blank">内裤</a>-->
+								<!--<a href="javascript:;" target="_blank">家具服</a>-->
+								<!--<a href="javascript:;" target="_blank">基础内衣</a>-->
+								<!--<a href="javascript:;" target="_blank">袜子</a>-->
+								<!--<a href="javascript:;" target="_blank">内衣</a>-->
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">童装</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank">套装</a>-->
+								<!--<a href="javascript:;" target="_blank">上装</a>-->
+								<!--<a href="javascript:;" target="_blank">下装</a>-->
+								<!--<a href="javascript:;" target="_blank">内衣/家居服</a>-->
+								<!--<a href="javascript:;" target="_blank">羽绒服/棉服</a>-->
+								<!--<a href="javascript:;" target="_blank">亲子装</a>-->
+								<!--<a href="javascript:;" target="_blank">裙装</a>-->
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">其他</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">家庭装</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank">情侣装</a>-->
+								<!--<a href="javascript:;" target="_blank">亲子装</a>-->
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">舞蹈服</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">瑜伽服</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">女装</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank">上装</a>-->
+								<!--<a href="javascript:;" target="_blank">下装</a>-->
+								<!--<a href="javascript:;" target="_blank">裙装</a>-->
+								<!--<a href="javascript:;" target="_blank">特色</a>-->
+								<!--<a href="javascript:;" target="_blank">外套</a>-->
+								<!--<a href="javascript:;" target="_blank">套装</a>-->
+								<!--<a href="javascript:;" target="_blank">老人装</a>-->
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">男装</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank">上装</a>-->
+								<!--<a href="javascript:;" target="_blank">下装</a>-->
+								<!--<a href="javascript:;" target="_blank">外套</a>-->
+								<!--<a href="javascript:;" target="_blank">特色</a>-->
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">服饰配件/皮带/帽子/围巾</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank">围巾/领带</a>-->
+								<!--<a href="javascript:;" target="_blank">帽子/手套</a>-->
+								<!--<a href="javascript:;" target="_blank">腰带</a>-->
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--</div>-->
+								<!--</div>-->
+								<!--<div id="dumaScrollAreaId_42Bar" class="dumascroll_bar">-->
+								<!--<div class="dumascroll_arrow_up"></div>-->
+								<!--<div class="dumascroll_handle" style="top: 0px; height: 64px; opacity: 1;"></div>-->
+								<!--<div class="dumascroll_arrow_down"></div>-->
+								<!--</div>-->
+								<!--</div>-->
+								<!--<div class="bn_w clearfix" id="bn_w1">-->
+								<!--<div class="banner" id="banner_1">-->
+								<!--<div class="img">-->
+								<!--<a href="javascript:;" target="_blank">-->
+								<!--<img src="../images/c00b21fe060f128041c142b3d4d7b045.jpg" style="display: inline" index="0" alt="1">-->
+								<!--</a>-->
+								<!--</div>-->
+								<!--<div class="ico">-->
+								<!--<ol class="fl">-->
+								<!--<li class="cur" style="width: 34px;">0</li>-->
+								<!--</ol>-->
+								<!--</div>-->
+								<!--</div>-->
+								<!--</div>-->
+								<!--<div id="adtextDiv1" class="adtextDiv">-->
+								<!--<p class="tht">品牌推荐</p>-->
+								<!--<dl class="clearfix">-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank" title="韩都衣舍">韩都衣舍</a>-->
+								<!--</dd>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank" title="媚倾">媚倾</a>-->
+								<!--</dd>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank" title="香兰杜若">香兰杜若</a>-->
+								<!--</dd>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank" title="奢卡利">奢卡利</a>-->
+								<!--</dd>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank" title="缔五季">缔五季</a>-->
+								<!--</dd>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank" title="简布秀姿">简布秀姿</a>-->
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--</div>-->
+								<!--</div>-->
+								<!--</li>-->
+								<!--<li class="m2 bg" data-id="3">-->
+								<!--<h3>-->
+								<!--<span style="position:relative;padding-left:25px">-->
+								<!--<i class="shen_li pic_3"></i>-->
+								<!--<a href="javascript:;" target="_blank">鞋子箱包</a>-->
+								<!--</span>-->
+								<!--</h3>-->
+								<!--<div class="menu_i" id="cat_item_3" style="display: none;">-->
+								<!--<div class="thb clearfix">-->
+								<!--<div class="wh50">-->
+								<!--<span class="ht">-->
+								<!--<a href="javascript:;" target="_blank">鞋子箱包</a>-->
+								<!--</span>-->
+								<!--</div>-->
+								<!--<div class="wh50 rht">-->
+								<!--<a href="javascript:;" target="_blank">更多</a>-->
+								<!--<i></i>-->
+								<!--</div>-->
+								<!--</div>-->
+								<!--<div class="dlDiv dumascroll clearfix  " id="dumaScrollAreaId_42" style="position: relative;">-->
+								<!--<div id="dumaScrollAreaId_42Area" class="dumascroll_area">-->
+								<!--<div class="fl">-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">老人鞋</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">情侣鞋</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">溜冰鞋</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">球鞋</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank">篮球鞋</a>-->
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">拖鞋</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank">女士</a>-->
+								<!--<a href="javascript:;" target="_blank">男士</a>-->
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">童鞋</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank">运动鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">单鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">鞋子</a>-->
+								<!--<a href="javascript:;" target="_blank">凉鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">功能鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">板鞋</a>-->
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">女鞋</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank">鞋子</a>-->
+								<!--<a href="javascript:;" target="_blank">板鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">慢跑鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">登山鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">高跟鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">特色鞋区</a>-->
+								<!--<a href="javascript:;" target="_blank">休闲鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">凉鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">单鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">增高鞋</a>-->
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">男鞋</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank">休闲鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">凉鞋/沙滩鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">商务鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">男鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">其他</a>-->
+								<!--<a href="javascript:;" target="_blank">登山鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">慢跑鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">板鞋</a>-->
+								<!--<a href="javascript:;" target="_blank">增高鞋</a>-->
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">女包</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank">钱包/卡包</a>-->
+								<!--<a href="javascript:;" target="_blank">手拿包</a>-->
+								<!--<a href="javascript:;" target="_blank">单肩包</a>-->
+								<!--<a href="javascript:;" target="_blank">双肩包</a>-->
+								<!--<a href="javascript:;" target="_blank">手提包</a>-->
+								<!--<a href="javascript:;" target="_blank">斜跨包</a>-->
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">男包</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank">钱包/卡包</a>-->
+								<!--<a href="javascript:;" target="_blank">男士手包</a>-->
+								<!--<a href="javascript:;" target="_blank">腰带/礼盒</a>-->
+								<!--<a href="javascript:;" target="_blank">商务公文包</a>-->
+								<!--<a href="javascript:;" target="_blank">双肩包</a>-->
+								<!--<a href="javascript:;" target="_blank">单肩包</a>-->
+								<!--<a href="javascript:;" target="_blank">斜挎包</a>-->
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--<dl>-->
+								<!--<dt>-->
+								<!--<a href="javascript:;" target="_blank">功能箱包</a>-->
+								<!--<i></i>-->
+								<!--</dt>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank">电脑数码包</a>-->
+								<!--<a href="javascript:;" target="_blank">双肩包</a>-->
+								<!--<a href="javascript:;" target="_blank">收纳包</a>-->
+								<!--<a href="javascript:;" target="_blank">旅行配件</a>-->
+								<!--<a href="javascript:;" target="_blank">书包</a>-->
+								<!--<a href="javascript:;" target="_blank">登山包</a>-->
+								<!--<a href="javascript:;" target="_blank">休闲运动包</a>-->
+								<!--<a href="javascript:;" target="_blank">拉杆箱</a>-->
+								<!--<a href="javascript:;" target="_blank">旅行包</a>-->
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--</div>-->
+								<!--</div>-->
+								<!--<div id="dumaScrollAreaId_42Bar" class="dumascroll_bar">-->
+								<!--<div class="dumascroll_arrow_up"></div>-->
+								<!--<div class="dumascroll_handle" style="top: 0px; height: 64px; opacity: 1;"></div>-->
+								<!--<div class="dumascroll_arrow_down"></div>-->
+								<!--</div>-->
+								<!--</div>-->
+								<!--<div class="bn_w clearfix" id="bn_w1">-->
+								<!--<div class="banner" id="banner_1">-->
+								<!--<div class="img">-->
+								<!--<a href="javascript:;" target="_blank">-->
+								<!--<img src="../images/0ad5a9d2cd774249caecf6b58b2c42b9.jpg" style="display: inline" index="0" alt="1">-->
+								<!--</a>-->
+								<!--</div>-->
+								<!--<div class="ico">-->
+								<!--<ol class="fl">-->
+								<!--<li class="cur" style="width: 34px;">0</li>-->
+								<!--</ol>-->
+								<!--</div>-->
+								<!--</div>-->
+								<!--</div>-->
+								<!--<div id="adtextDiv1" class="adtextDiv">-->
+								<!--<p class="tht">品牌推荐</p>-->
+								<!--<dl class="clearfix">-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank" title="花花公子">花花公子</a>-->
+								<!--</dd>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank" title="百牧林">百牧林</a>-->
+								<!--</dd>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank" title="古奇天伦">古奇天伦</a>-->
+								<!--</dd>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank" title="王菲儿">王菲儿</a>-->
+								<!--</dd>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank" title="银座">银座</a>-->
+								<!--</dd>-->
+								<!--<dd>-->
+								<!--<a href="javascript:;" target="_blank" title="宋黛儿">宋黛儿</a>-->
+								<!--</dd>-->
+								<!--</dl>-->
+								<!--</div>-->
+								<!--</div>-->
+								<!--</li>-->
+								<!--<li class="m3" data-id="65">-->
+								<!--<h3>-->
+								<!--<span style="position:relative;padding-left:25px">-->
+								<!--<i class="shen_li pic_65"></i>-->
+								<!--<a href="javascript:;" target="_blank">食品健康</a>-->
+								<!--</span>-->
+								<!--</h3>-->
+								<!--</li>-->
+								<!--<li class="m4 bg" data-id="51">-->
+								<!--<h3>-->
+								<!--<span style="position:relative;padding-left:25px">-->
+								<!--<i class="shen_li pic_51"></i>-->
+								<!--<a href="javascript:;" target="_blank">珠宝饰品</a>-->
+								<!--</span>-->
+								<!--</h3>-->
+								<!--</li>-->
+								<!--<li class="m5" data-id="57">-->
+								<!--<h3>-->
+								<!--<span style="position:relative;padding-left:25px">-->
+								<!--<i class="shen_li pic_57"></i>-->
+								<!--<a href="javascript:;" target="_blank">个护化妆</a>-->
+								<!--</span>-->
+								<!--</h3>-->
+								<!--</li>-->
+								<!--<li class="m6 bg" data-id="58">-->
+								<!--<h3>-->
+								<!--<span style="position:relative;padding-left:25px">-->
+								<!--<i class="shen_li pic_58"></i>-->
+								<!--<a href="javascript:;" target="_blank">运动户外</a>-->
+								<!--</span>-->
+								<!--</h3>-->
+								<!--</li>-->
+								<!--<li class="m7" data-id="59">-->
+								<!--<h3>-->
+								<!--<span style="position:relative;padding-left:25px">-->
+								<!--<i class="shen_li pic_59"></i>-->
+								<!--<a href="javascript:;" target="_blank">母婴玩具</a>-->
+								<!--</span>-->
+								<!--</h3>-->
+								<!--</li>-->
+								<!--<li class="m8 bg" data-id="60">-->
+								<!--<h3>-->
+								<!--<span style="position:relative;padding-left:25px">-->
+								<!--<i class="shen_li pic_60"></i>-->
+								<!--<a href="javascript:;" target="_blank">手机数码/电脑办公</a>-->
+								<!--</span>-->
+								<!--</h3>-->
+								<!--</li>-->
+								<!--<li class="m9" data-id="61">-->
+								<!--<h3>-->
+								<!--<span style="position:relative;padding-left:25px">-->
+								<!--<i class="shen_li pic_61"></i>-->
+								<!--<a href="javascript:;" target="_blank">汽车用品</a>-->
+								<!--</span>-->
+								<!--</h3>-->
+								<!--</li>-->
+								<!--<li class="m10 bg" data-id="62">-->
+								<!--<h3>-->
+								<!--<span style="position:relative;padding-left:25px">-->
+								<!--<i class="shen_li pic_62"></i>-->
+								<!--<a href="javascript:;" target="_blank">家用电器</a>-->
+								<!--</span>-->
+								<!--</h3>-->
+								<!--</li>-->
+								<!--<li class="m11" data-id="63">-->
+								<!--<h3>-->
+								<!--<span style="position:relative;padding-left:25px">-->
+								<!--<i class="shen_li pic_63"></i>-->
+								<!--<a href="javascript:;" target="_blank">居家家纺</a>-->
+								<!--</span>-->
+								<!--</h3>-->
+								<!--</li>-->
+								<!--<li class="m12 bg" data-id="64">-->
+								<!--<h3>-->
+								<!--<span style="position:relative;padding-left:25px">-->
+								<!--<i class="shen_li pic_64"></i>-->
+								<!--<a href="javascript:;" target="_blank">家居建材</a>-->
+								<!--</span>-->
+								<!--</h3>-->
+								<!--</li>-->
+								<!--<li class="m13" data-id="3402">-->
+								<!--<h3>-->
+								<!--<span style="position:relative;padding-left:25px">-->
+								<!--<i class="shen_li pic_3402"></i>-->
+								<!--<a href="javascript:;" target="_blank">文化娱乐</a>-->
+								<!--</span>-->
+								<!--</h3>-->
+								<!--</li>-->
+
+							</ul>
+						</div>
+						<ul class="nav fl" id="navchs">
+							<li class="curth color_rebg">
+								<a href="index.html" class="navfl" target="_self">首页</a>
+							</li>
+							<li class="">
+								<a href="clothCity.html" class="navfl" target="_self">服装城</a>
+							</li>
+							<li class="">
+								<a href="javascript:;" class="navfl" target="_self">双倍积分</a>
+							</li>
+							<li class="">
+								<a href="020shop.html" target="_self" class="navfl" target="_self">020店铺</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div id="content_layout" class="content_layout">
+			<div id="content" class="content">
+				<div class="layout grid-m J_TLayout">
+					<div class="m_crumbs">
+						<div class="f1 crumbs_nav">
+							<ul class="f1">
+								<li>
+									<a href="#">手机数码/电脑办公</a><span class="arr">></span></li>
+								<li>
+									<a href="#">手机通信</a><span class="arr">></span></li>
+								<li>
+									<a href="#" class="cur">手机</a><span class="arr">></span></li>
+							</ul>
+						</div>
+						<div class="f1 srch pr">
+							<input class="J_Cate_search_word" type="text" placeholder="在当前条件下搜索">
+							<span class="J_Cate_search"></span>
+						</div>
+					</div>
+					<!--手机列表-->
+					<div class="g_c">
+						<div class="m_filter" style="border-bottom: 1px dotted #ddd;">
+							<div class="tit">
+								<div id="product_show_layer"><b class="red ft14" id="choose_cate">手机</b><span class="ft14">商品筛选</span>共<em class="red" id="cate_product_num">0</em>个商品</div>
+							</div>
+							<div class="sys_list_brand_bd type">
+								<em class="lab">品牌：</em>
+								<div class="cont">
+									<!--<div class="selected_brand">
+                                    
+                                </div>-->
+									<ul class="clearfix" id="g_c_b_ls">
+										<li data-id="1">
+											<a href="#">中兴</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">三星</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">小米</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">酷派</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">联想</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">华为</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">苹果</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">AEKU</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">Northbell</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">美图</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">魅族/meizu</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">澳利澳</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">乐视</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">OPPO</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">VIVO</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">荣耀</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">360</a>
+										</li>
+										<li data-id="1">
+											<a href="javascript:void(0);">努比亚</a>
+										</li>
+									</ul>
+									<span class="more J_CateBrandMore"><em>更多</em><i></i></span>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+
+					<!--列表-->
+					<div class="m_filter" style="border-top:none">
+						<div class="type">
+							<div class="cont">
+								<em class="lab">价格：</em>
+								<ul class="clearfix sort_price" id="sort">
+									<li>
+										<a href="javascript:void(0);" lowprice="0" highprice="79">0-79</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);" lowprice="80" highprice="199">80-199</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);" lowprice="200" highprice="299">200-299</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);" lowprice="300" highprice="499">300-499</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);" highprice="500以上">500以上</a>
+									</li>
+									<li>
+										<input type="text" class="txt" id="lowPrice" />
+										<span class="sep">-</span>
+										<input type="text" class="txt" id="highPrice" />
+										<a href="#" class="btn" id="J_P_search">确定</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--热门推荐 综合销量-->
+				<div class="layout grid-s5m0 J_TLayout">
+					<div class="col-main">
+						<div class="main-wrap J_TRegion">
+							<div id="shopModuleId6" data-ajax="true" class="J_TModule" moduleID="tshop-pbsm-sys_pro_search_list_new" data-position="1">
+								<div class="tb-module tshop-um tshop-um-sys_pro_search_list_new">
+									<div class="sys_pro_search_list_new">
+										<div class="g_goods fr">
+											<!--排序-->
+											<div class="m_sort" id="m_sort">
+												<ul class="fl list" id="j_sort">
+													<li class="cur" order-val="_newOn" style="float: left;">综合</li>
+													<li order-val="_hotsell">销量<i></i></li>
+													<li order-val="price">价格<i></i></li>
+													<li order-val="_newUpdate">上架时间<i></i></li>
+												</ul>
+												<div class="fr page">
+													<a id="J_Page_prev" href="javascript:;">&lt;</a>
+													<span id="J_PageSelected"><em class="red">1</em>/330</span>
+													<a id="J_Page_next" href="javascript:;">&gt;</a>
+												</div>
+											</div>
+											<div class="waterfall list_g" id="waterfall">
+												<div id="article">
+													<div class="result_warm warm_text" style="display: none;"></div>
+													<ul id="ColumnContainerCON" class="m_list2 ColumnContainerCON" style="margin-left: 0;padding-left: 0;">
+														<li>
+															<a href="#" class="img"><img src="../images/listTel_right_1.jpg"><i></i></a>
+															<a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+															<p class="price"><b>￥79.00</b></p>
+															<p class="btm">
+																<a href="#" class="fl">立即购买&gt;</a><span>销量：<b class="red">5612</b></span></p>
+														</li>
+														<li>
+															<a href="#" class="img"><img src="../images/listTel_right_1.jpg"><i></i></a>
+															<a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+															<p class="price"><b>￥79.00</b></p>
+															<p class="btm">
+																<a href="#" class="fl">立即购买&gt;</a><span>销量：<b class="red">5612</b></span></p>
+														</li>
+														<li>
+															<a href="#" class="img"><img src="../images/listTel_right_1.jpg"><i></i></a>
+															<a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+															<p class="price"><b>￥79.00</b></p>
+															<p class="btm">
+																<a href="#" class="fl">立即购买&gt;</a><span>销量：<b class="red">5612</b></span></p>
+														</li>
+														<li>
+															<a href="#" class="img"><img src="../images/listTel_right_1.jpg"><i></i></a>
+															<a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+															<p class="price"><b>￥79.00</b></p>
+															<p class="btm">
+																<a href="#" class="fl">立即购买&gt;</a><span>销量：<b class="red">5612</b></span></p>
+														</li>
+														<li>
+															<a href="#" class="img"><img src="../images/listTel_right_1.jpg"><i></i></a>
+															<a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+															<p class="price"><b>￥79.00</b></p>
+															<p class="btm">
+																<a href="#" class="fl">立即购买&gt;</a><span>销量：<b class="red">5612</b></span></p>
+														</li>
+														<li>
+															<a href="#" class="img"><img src="../images/listTel_right_1.jpg"><i></i></a>
+															<a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+															<p class="price"><b>￥79.00</b></p>
+															<p class="btm">
+																<a href="#" class="fl">立即购买&gt;</a><span>销量：<b class="red">5612</b></span></p>
+														</li>
+														<li>
+															<a href="#" class="img"><img src="../images/listTel_right_1.jpg"><i></i></a>
+															<a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+															<p class="price"><b>￥79.00</b></p>
+															<p class="btm">
+																<a href="#" class="fl">立即购买&gt;</a><span>销量：<b class="red">5612</b></span></p>
+														</li>
+														<li>
+															<a href="#" class="img"><img src="../images/listTel_right_1.jpg"><i></i></a>
+															<a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+															<p class="price"><b>￥79.00</b></p>
+															<p class="btm">
+																<a href="#" class="fl">立即购买&gt;</a><span>销量：<b class="red">5612</b></span></p>
+														</li>
+													</ul>
+												</div>
+												<div class="J_loadingPins" style="display: none;text-align: center">
+													<img alt="Pin Loader Image" src="http://public.cjwsc.com//images/loading.gif"> &nbsp;&nbsp;&nbsp;&nbsp;
+													<span>正在努力加载中…</span>
+												</div>
+												<div class="displaynone pt20 pb30 paging J_PagesBottom" style="width:900px;text-align:right"></div>
+											</div>
+
+											<!--分页-->
+										</div>
+
+										<div class="clear"></div>
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+						
+						
+						
+						<div class="col-sub">
+						<div id=" shopModuleId7 " data-ajax="true " class="J_TModule "  moduleID="tshop-pbsm-sys_list_left_recommend " data-position="1 ">
+						<div class="tb-module tshop-um tshop-pbsm-sys_list_left_recommend ">
+    					<div class="sys_list_left_recommend ">
+
+						        <!--热门推荐-->
+						        <div class="m_sideRecom fl">
+						            <h3>热门推荐</h3>
+						            <ul id="J_L_Rcom_ColumnContainer"  class="J_L_Rcom_ColumnContainer" >      
+						                <li>
+						                    <a href="#" class="img"><img src="../images/listTel_left_1.jpg "></i></a>
+						                    <a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+						                    <p class="price"><b>￥79.00</b></p>
+						                </li>
+						                <li>
+						                    <a href="#" class="img"><img src="../images/listTel_left_1.jpg "><i></i></a>
+						                    <a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+						                    <p class="price "><b>￥79.00</b></p>
+						                </li>
+						                <li>
+						                    <a href="#" class="img"><img src="../images/listTel_left_1.jpg "><i></i></a>
+						                    <a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+						                    <p class="price "><b>￥79.00</b></p>
+						                </li>
+						            </ul>
+						        </div>
+        
+    					</div>
+						</div>
+						</div>
+						<div id=" shopModuleId7 " data-ajax="true " class="J_TModule "  moduleID="tshop-pbsm-sys_list_left_recommend " data-position="1 ">
+						<div class="tb-module tshop-um tshop-pbsm-sys_list_left_recommend ">
+    					<div class="sys_list_left_recommend ">
+
+						        <!--销量排行-->
+						        <div class="m_sideRecom fl">
+						            <h3>销量排行</h3>
+						            <ul id="J_L_Rcom_ColumnContainerU">      
+						                <li>
+						                    <a href="#" class="img"><img src="../images/listTel_left_1.jpg "></i></a>
+						                    <a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+						                    <p class="price "><b>￥79.00</b></p>
+						                </li>
+						                <li>
+						                    <a href="#" class="img"><img src="../images/listTel_left_1.jpg "><i></i></a>
+						                    <a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+						                    <p class="price "><b>￥79.00</b></p>
+						                </li>
+						                <li>
+						                    <a href="#" class="img"><img src="../images/listTel_left_1.jpg "><i></i></a>
+						                    <a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+						                    <p class="price "><b>￥79.00</b></p>
+						                </li>
+						            </ul>
+						        </div>
+        
+    					</div>
+						</div>
+						</div>
+											
+						
+						
+						
+						
+						
+						
+					</div>	
+						
+						
+						
+						
+						
+					</div>
+					
+						
+						
+						
+						
+						
+						
+						
+					</div>			
+				<!--猜你喜欢-->
+				<div class=" layout grid-m J_TLayout ">
+					<div class="g_c">
+						<div class="m_filter" style="border-bottom: 1px dotted #ddd;">
+							<div class="tit">
+								<div id="product_show_layer" style="font-weight: 900;font-size:18px;">精选商品</div>
+							</div>
+							<div class="sys_list_brand_bd">
+								<div class="cont">
+									<ul id="ColumnContainer" class="m_list2  mmm" style="margin-left: 0;padding-left: 0;">
+														<li class="listU">
+															<a href="#" class="img"><img src="../images/listTel_right_1.jpg"><i></i></a>
+															<a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+															<p class="price"><b>￥79.00</b></p>
+														</li>
+														<li class="listU">
+															<a href="#" class="img"><img src="../images/listTel_right_1.jpg"><i></i></a>
+															<a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+															<p class="price"><b>￥79.00</b></p>
+														</li>
+														<li class="listU">
+															<a href="#" class="img"><img src="../images/listTel_right_1.jpg"><i></i></a>
+															<a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+															<p class="price"><b>￥79.00</b></p>
+														</li>
+														<li class="listU">
+															<a href="#" class="img"><img src="../images/listTel_right_1.jpg"><i></i></a>
+															<a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+															<p class="price"><b>￥79.00</b></p>
+														</li>
+														<li class="listU">
+															<a href="#" class="img"><img src="../images/listTel_right_1.jpg"><i></i></a>
+															<a href="#" class="name">2015欧洲站春装优雅气质印花袖莲衣裙修身A字裙品牌连衣裙5962</a>
+															<p class="price"><b>￥79.00</b></p>
+														</li>
+														
+													</ul>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<div id="foot_back">
+			<div id="foot">
+				<div class="layout grid-m J_TLayout">
+					<div class="col-main">
+						<div class="main-wrap J_TRegion">
+							<div id="shopModuleId14" class="J_TModule">
+								<div class="tb-module tshop-um tshop-um-sys_foot2">
+									<div class="sys_foot2">
+										<div class="server">
+											<div class="wrap1">
+												<dl>
+													<dt>
+													<h3>
+														<i class="gw"></i>购物指南
+													</h3>
+													</dt>
+													<dd>
+														<a href="javascript:;" target="_blank" class="nofollow">怎样购物</a>
+													</dd>
+													<dd>
+														<a href="javascript:;" target="_blank" class="nofollow">积分计划</a>
+													</dd>
+													<dd>
+														<a href="javascript:;" target="_blank" class="nofollow">订单状态</a>
+													</dd>
+												</dl>
+												<dl>
+													<dt>
+													<h3>
+														<i class="gw"></i>支付帮助
+													</h3>
+													</dt>
+													<dd>
+														<a href="javascript:;" target="_blank" class="nofollow">网银支付</a>
+													</dd>
+													<dd>
+														<a href="javascript:;" target="_blank" class="nofollow">支付宝</a>
+													</dd>
+													<dd>
+														<a href="javascript:;" target="_blank" class="nofollow">发票说明</a>
+													</dd>
+												</dl>
+												<dl>
+													<dt>
+													<h3>
+														<i class="gw"></i>配送方式
+													</h3>
+													</dt>
+													<dd>
+														<a href="javascript:;" target="_blank" class="nofollow">普通快递</a>
+													</dd>
+													<dd>
+														<a href="javascript:;" target="_blank" class="nofollow">邮政EMS</a>
+													</dd>
+												</dl>
+												<dl>
+													<dt>
+													<h3>
+														<i class="gw"></i>服务条款
+													</h3>
+													</dt>
+													<dd>
+														<a href="javascript:;" target="_blank" class="nofollow">售后服务政策</a>
+													</dd>
+													<dd>
+														<a href="javascript:;" target="_blank" class="nofollow">售后特色服务</a>
+													</dd>
+													<dd>
+														<a href="javascript:;" target="_blank" class="nofollow">退换货说明</a>
+													</dd>
+													<dd>
+														<a href="javascript:;" target="_blank" class="nofollow">联系客服</a>
+													</dd>
+												</dl>
+												<dl>
+													<dt>
+													<h3>
+														<i class="gw"></i>关于厂家网
+													</h3>
+													</dt>
+													<dd>
+														<a href="javascript:;" target="_blank" class="nofollow">消费者为何钟情厂家网</a>
+													</dd>
+													<dd>
+														<a href="javascript:;" target="_blank" class="nofollow">厂家网企业官网</a>
+													</dd>
+													<dd>
+														<a href="javascript:;" target="_blank" class="nofollow">厂家网简介</a>
+													</dd>
+													<dd>
+														<a href="javascript:;" target="_blank" class="nofollow">招贤纳士</a>
+													</dd>
+												</dl>
+											</div>
+										</div>
+										<div class="wrap1">
+											<ul class="list_qr">
+												<li>
+													<img src="../images/qr1_1_newb.png" class="fl">
+													<h3>厂家网客户端</h3>
+													<p>想想都喜欢，想想都要爱上它了</p>
+													<a href="javascript:;" target="_blank">
+														<i class="ico1"></i>iPhone
+													</a>
+													<a href="javascript:;" target="_blank">
+														<i class="ico3"></i>Android
+													</a>
+												</li>
+												<li>
+													<img src="../images/qr3.png" class="fl">
+													<h3>厂家网微信服务号</h3>
+													<p>筑梦创业，人人都是CEO，免费福利每天派！</p>
+													<p>微信号：cjwsckefu</p>
+												</li>
+												<li>
+													<img src="../images/qr2_new.png" class="fl">
+													<h3>厂家网微信订阅号</h3>
+													<p>万千优惠资讯抢先收到，尖货好货等你来抢！</p>
+													<p>微信号：cjwscscb</p>
+												</li>
+											</ul>
+										</div>
+										<div class="tc bz">
+											<img src="../images/flbz1.jpg">
+										</div>
+										<div class="ft_link">
+											<a href="javascript:;" target="_blank" class="nofollow">关于我们</a>|
+											<a href="javascript:;" target="_blank" class="nofollow">联系客服</a>|
+											<a href="javascript:;" target="_blank" class="nofollow">商家入驻</a>|
+											<a href="javascript:;" target="_blank" class="nofollow">隐私保护</a>|
+											<a href="javascript:;" target="_blank" class="nofollow">免责条款</a>|
+											<a href="javascript:;" target="_blank" class="nofollow">快递查询</a>
+										</div>
+										<p class="copyright">
+											版权所有 厂家网商城 保留所有版权 ICP备案证书号:粤ICP备12093889号,
+											<a href="javascript:;">经营许可证编号：粤B2-20140257</a><br>
+											Copyright © 2012-2013 www.cjwsc.com,All Rights Reserved
+										</p>
+										<div class="pic_list">
+											<a href="javascript:;" target="_blank" class="nofollow">
+												<img src="../images/315new.gif">
+											</a>
+											<a href="javascript:;" target="_blank" class="nofollow">
+												<img width="141" height="55" src="../images/VieID_140_50.png">
+											</a>
+											<span style="display:inline-block;position:relative;width:auto;">
+                                            <a href="javascript:;" target="_blank" class="nofollow" id="kx_verify" style="display:inline-block;">
+                                                <img width="141" height="55" src="../images/cnnic.png" style="border:none;">
+                                            </a>
+                                        </span>
+											<a href="javascript:;" target="_blank" class="nofollow">
+												<img width="156" height="45" src="../images/bluelogo.gif">
+											</a>
+											<a href="javascript:;" target="_blank" class="nofollow">
+												<img width="124" height="47" src="../images/sm_124x47.png">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<script src="../js/index.js"></script>
+	<script type="text/javascript" src="../js/display.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,296 @@
+/*去除默认样式*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: none;
+}
+ul, ol ,li{
+    list-style:none;
+}
+body {
+    font-size:12px;
+    font-family:"微软雅黑";
+    color: #333;
+    background:#ededed;
+}
+a {
+    text-decoration:none;
+}
+i{
+    font-style: normal;
+}
+em{
+    font-style: normal;
+}
+
+/*header*/
+.header{
+    width:100%;
+    height:121px;
+}
+.wrap{
+    width:1200px;
+    margin:0 auto;
+}
+.hide{
+    display: none;
+}
+.header .top{
+    width:100%;
+    height:100%;
+    padding:30px 0 25px 0;
+    position: relative;
+}
+.header .top .top-logo{
+    width:309px;
+    height:64px;
+    float: left;
+    display: block;
+}
+.header .top .top-list{
+    float: right;
+    position: absolute;
+    right:0;
+    top:45px;
+}
+.header .top .top-list ul li{
+    float: left;
+    font-size:14px;
+}
+.header .top .top-list ul li a{
+    color: #000;
+}
+.header .top .top-list ul li a:hover{
+    color: #da3d48;
+}
+.red{
+    color: #f00!important;
+}
+.header .top .top-list ul li .weixin{
+    background: url(../images/top-weixin.png) no-repeat;
+    cursor: pointer;
+    margin-left:20px;
+}
+.header .top .top-list ul li .weixin:hover{
+    background: url(../images/top-weixin2.png) no-repeat;
+}
+.wid28{
+    width:28px;
+    height:28px;
+    position: relative;
+    top:-5px;
+}
+.header .top .top-list ul li .weixin .weixin-erweima{
+    border:1px solid #c7c7c7;
+    width:174px;
+    height:174px;
+    position: absolute;
+    top:35px;
+    left:-75px;
+    z-index:10;
+}
+.header .top .top-list ul li .weixin:hover .weixin-erweima{
+    display: block;
+}
+.header .top .top-list ul li .weixin .weixin-erweima .jiantou{
+    background: url(../images/jiantou.png) no-repeat;
+    width:14px;
+    height:8px;
+    position: absolute;
+    left:80px;
+    top:-8px;
+}
+.header .top .top-list ul li .weibo{
+    background: url(../images/top-weibo.png) no-repeat;
+    cursor: pointer;
+    margin-left:10px;
+}
+.header .top .top-list ul li .weibo:hover{
+    background: url(../images/top-weibo2.png) no-repeat;
+}
+.header .top .top-list ul li .tel{
+    background: url(../images/top-phone.png) no-repeat;
+    cursor: pointer;
+    margin-left:10px;
+}
+.header .top .top-list ul li .tel:hover{
+    background: url(../images/top-phone2.png) no-repeat;
+}
+.header .top .top-list ul li .tel .phoneNum{
+    background: #fff;
+    border:1px solid #c7c7c7;
+    width:118px;
+    height:29px;
+    line-height: 29px;
+    position: absolute;
+    left:-90px;
+    top:35px;
+    text-align: center;
+    z-index: 10;
+}
+.header .top .top-list ul li .tel:hover .phoneNum{
+    display: block;
+}
+.header .top .top-list ul li .tel .phoneNum .jiantou-pn{
+    background: url(../images/jiantou2.png) no-repeat;
+    position: absolute;
+    top:-8px;
+    right:8px;
+    height:8px;
+    width:14px;
+}
+.topnav{
+    background-color: #272727;
+    height:45px;
+}
+.topnav .navbox{
+    width:100%;
+    height:100%;
+}
+.topnav .navbox ul li{
+    float:left;
+    width:133px;
+    height:100%;
+    cursor: pointer;
+    color: #fff;
+    font-size:16px;
+    line-height:45px;
+    text-align: center;
+    position: relative;
+}
+.topnav .navbox ul li:hover{
+    background: #da3d48;
+}
+.topnav .navbox ul li a{
+    display: block;
+    color: #fff;
+}
+.bgcol-da{
+    background-color: #da3d48;
+}
+.topnav .navbox ul li .downlist{
+    background-color: #ededed;
+    width:133px;
+    position: absolute;
+    z-index: 10;
+    display: none;
+}
+.topnav .navbox ul li:hover .downlist{
+    display: block;
+}
+.topnav .navbox ul li .downlist li a{
+    color: #000;
+    display: block;
+}
+.topnav .navbox ul li:hover .downlist li:hover{
+    background: #272727;
+}
+.topnav .navbox ul li:hover .downlist li:hover a{
+    color: #fff;
+}
+/*footer*/
+.footer{
+    width:100%;
+    background-color: #272727;
+    overflow: hidden;
+}
+.footer .wrap{
+    overflow: hidden;
+}
+.footer .wrap .footer-box{
+    padding-top:55px;
+    padding-bottom:40px;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.footer .wrap .footer-box .erweima-line{
+    width:100%;
+    color: #fff;
+    overflow: hidden;
+}
+.footer .wrap .footer-box .erweima-line .erweima-left{
+    width:350px;
+    float: left;
+}
+ .mobile-erweima{
+    width:128px;
+    float: left;
+}
+.mobile-erweima img{
+    width:128px;
+    height:128px;
+}
+.mobile-text{
+    width:207px;
+    float: left;
+    margin-left:15px;
+    text-align: left;
+}
+.ft18{
+    font-size:18px;
+}
+.mt15{
+    margin-top:15px;
+}
+.ml10{
+    margin-left: 10px;
+}
+.ft14{
+    font-size:14px;
+}
+.mt23{
+    margin-top:23px;
+}
+.mt5{
+    margin-top: 5px;
+}
+.footer .wrap .footer-box .erweima-line .erweima-left .mobile-text .phone .iphone{
+    border:1px solid #8f8f8f;
+    float: left;
+    width:54px;
+    height:24px;
+    line-height:24px;
+    padding-left:35px;
+    position: relative;
+}
+.footer .wrap .footer-box .erweima-line .erweima-left .mobile-text .phone .iphone:hover{
+    border-color:#da3d48;
+    color: #da3d48;
+}
+.footer .wrap .footer-box .erweima-line .erweima-left .mobile-text .phone .iphone i.ipIco{
+    width:16px;
+    height:19px;
+    position: absolute;
+    left:10px;
+}
+.footer .wrap .footer-box .erweima-line .erweima-left .mobile-text .phone .iphone .ipIco{
+    background: url(../images/iPhonew.png) no-repeat ;
+    top:3px;
+}
+.footer .wrap .footer-box .erweima-line .erweima-left .mobile-text .phone .iphone:hover .ipIco{
+    background: url(../images/iphone.png) no-repeat ;
+}
+.footer .wrap .footer-box .erweima-line .erweima-left .mobile-text .phone .iphone .adIco{
+    background: url(../images/Androidw.png) no-repeat ;
+    top:2px;
+}
+.footer .wrap .footer-box .erweima-line .erweima-left .mobile-text .phone .iphone:hover .adIco{
+    background: url(../images/android.png) no-repeat  ;
+}
+.footer .wrap .footer-box .erweima-line .erweima-center{
+    width:425px;
+    float: left;
+}
+.footer .wrap .footer-box .erweima-line .erweima-right{
+    width:425px;
+    float: left;
+}
+.mt45{
+    margin-top:45px;
+}
+.mt10{
+    margin-top:10px;
+}

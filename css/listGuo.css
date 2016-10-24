@@ -1,0 +1,190 @@
+body{
+    font-family:"宋体" ;
+    font-size:12px;
+}
+ul li{
+    list-style: none outside none;
+}
+div{
+    margin: 0;
+    padding:0;
+}
+a{
+    color:#302C34;
+    text-decoration: none;
+    outline: none;
+    cursor: auto;
+}
+em,i{
+    font-style:normal;
+}
+img{
+    border: 0 none;
+    vertical-align: middle;
+    display: inline-block;
+}
+.hide{
+    display: none;
+}
+.content{
+    padding-bottom: 10px;
+}
+.ColumnContainer{
+    margin: 0 auto;
+    width:1212px;
+    overflow: hidden;
+    min-height: 50px;
+}
+.ColumnContainer .item{
+    float: left;
+    height:358px;
+    display: inline;
+    margin-bottom: 51px;
+    width:230px;
+    margin-left:12px;
+
+}
+.ColumnContainer .item .box{
+    padding: 4px;
+    border:1px solid #F3F3F3;
+    position: relative;
+}
+/*浮动*/
+.ColumnContainer .item .box:hover{
+    border:3px solid #e8e8e8;
+}
+.ColumnContainer .item .box:hover .supp{
+    display: block;
+    background: #E8E8E8;
+    border:2px solid #E8E8E8;
+     border-left:1px solid #E8E8E8;
+}
+.ColumnContainer .item .box .img{
+    display: block;
+    position: relative;
+    width: 220px;
+    height:220px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.ColumnContainer .item .box .img i{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.ColumnContainer .item .box .img img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.ColumnContainer .item .name{
+    line-height:18px;
+    padding:8px 6px 0px;
+    height:36px;
+    overflow: hidden;
+}
+.ColumnContainer .item .price{
+    font-family: Arial;
+    font-size:24px;
+    color:#ff0000;
+    padding: 0 5px;
+    line-height: 30px;
+}
+.ColumnContainer .item .price i{
+    font-size:14px;
+}
+.ColumnContainer .item .supp{
+    display: none;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    left:0;
+    bottom: -45px;
+    height:50px;
+    line-height: 50px;
+    background: #e8e8e8;
+}
+.f1{
+    float: left;
+}
+.ColumnContainer .item .supp a{
+    color:#0006FF;
+    margin-left:10px;
+}
+.ColumnContainer .item .supp .follow{
+    position: absolute;
+    right:10px;
+    top:14px;
+    background: #E9781B;
+    height:22px;
+    line-height: 22px;
+    color: #fff;
+    display:inline-block;
+    padding:0 11px;
+    border-radius: 11px;
+    cursor:pointer;
+}
+.ColumnContainer .item .supp i{
+    float: left;
+    background: url(../images/ico_gz.png) no-repeat;
+    width: 10px;
+    height:9px;
+    margin: 7px 4px 0 0;
+}
+.ColumnContainer .item .lab{
+    background: url(../images/xin.jpg) no-repeat 0 0;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    position: absolute;
+    right: 5px;
+    top:5px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "微软雅黑";
+    color:#fff;
+}
+
+
+/*上下页*/
+.pb30{
+	padding-bottom: 30px;
+}
+.pt20{
+	padding-top: 20px;
+}
+.tc{
+	text-align: center;
+}
+.pages .ks-button{
+	display: inline-block;
+	width: 20px;
+	height:25px;
+	line-height: 25px;
+	text-align: center;
+	color:#565656;
+	border:1px solid #ccc;
+	margin:0 6px;
+	font-family: arial;
+	text-decoration: none;
+	vertical-align: middle;
+	padding: 4px 10px 4px;
+	font-size: 12px;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+	border-radius: 4px;
+	background: #e8e8e8;
+}
+.pages .pagepre{
+	width: 60px;
+}
+.pages .page-cur{
+	background: #eee;
+}
+.pages .total .txt{
+	border: 1px solid #ddd;
+	height:22px;
+	line-height: 22px;
+	padding: 0 5px;
+	margin:0 5px;
+	vertical-align: middle;
+}

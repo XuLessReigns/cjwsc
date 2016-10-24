@@ -1,0 +1,11 @@
+.ks-popup .tshop-um-sys_login .fr{float: none;}
+.ks-popup .tshop-um-sys_login .lg_box{
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.ks-popup .tshop-um-sys_login .lg_form .btn{border: none;}
+.ks-popup{
+    position:absolute;
+    left:-9999px;
+    top:-9999px;
+}

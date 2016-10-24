@@ -1,0 +1,401 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>购物车结算</title>
+    <link rel="stylesheet" href="../css/goshang.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <script type="text/javascript" src="../js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="../js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="../js/cookieDom.js"></script>
+</head>
+<body>
+<!--header-->
+<div id="header_back">
+    <div id="header">
+        <ul class="header_left">
+            <li class="header_p">
+                <a class="mobile_client cap" target="_blank" href="javascript:;">
+                    <i class="ico_tel"></i>
+                    移动客户端
+                    <i class="arr"></i>
+                </a>
+                <div class="subset">
+                    <img class="ewm" src="../images/APP_1.png" width="84px"/>
+                    <p class="ewm_font">
+                        厂家网商城移动app
+                        <span class="red">扫扫有惊喜哦！</span>
+                    </p>
+                </div>
+            </li>
+            <li class="header_p">
+                <a class="weChat cap">
+                    <i class="ico_tel"></i>
+                    微信服务号
+                    <i class="arr"></i>
+                </a>
+                <div class="subset">
+                    <img class="ewm" src="../images/qr3.png" width="84px"/>
+                    <p class="ewm_font">
+                        更便捷的尊享服务
+                        <span class="red">免费奖品兑换！</span>
+                    </p>
+                </div>
+            </li>
+            <li class="header_p">
+                <a href="javascript:;">
+                    <i class="ico_wb"></i>
+                    官方微博
+                </a>
+            </li>
+            <li>
+                欢迎光临厂家网
+                <span class="top_user_info">
+                        <a href="login.html" target="_blank" class="c_org">请登录</a>
+                    </span>
+                <a href="register.html" target="_blank" class="ml_10">免费注册</a>
+            </li>
+        </ul>
+        <ul class="header_right">
+            <li class="noborder">
+                <a href="javascript:;">我的订单</a>
+            </li>
+            <li>
+                <a href="javascript:;">我的厂家网</a>
+            </li>
+            <li class="header_p">
+                <a href="javascript:;" class="cap">服务中心<i class="arr"></i></a>
+                <div class="subset sv">
+                    <a href="javascript:;" target="_blank">售后服务</a>
+                    <a href="javascript:;" target="_blank">在线客服</a>
+                    <a href="javascript:;" target="_blank">投诉中心</a>
+                    <a href="javascript:;" target="_blank">千城万店</a>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:;">厂家网公告</a>
+            </li>
+            <li>
+                <a href="cjwlt.html" target="_blank">厂家网论坛</a>
+            </li>
+            <li>
+                <a href="javascript:;">客户服务</a>
+            </li>
+            <li class="header_p">
+                <a href="javascript:;" class="cap">网站导航<i class="arr"></i></a>
+                <div class="subset sv">
+                    <a href="javascript:;" target="_blank">企业论坛</a>
+                    <a href="official.html" target="_blank">企业官网</a>
+                    <a href="opening.html" target="_blank">招贤纳士</a>
+                    <a href="benefit.html" target="_blank">厂家网公益</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+   <div  class="shangp_bank">
+       <div class="my_log shangp_width">
+            <div class="my_log_left">
+                <a href="index.html"><img src="../images/logonew.png"></a>
+            </div>
+           <div class="my_log_right">
+               <input  class="inputsch" type="text">
+               <input type="button" class="buttonsch" value="搜索">
+           </div>
+       </div>
+        <div class="shangp_content shangp_width">
+            <div class="content_gw" id="content_gw">
+                <div class="gw_header">
+                    <ul>
+                        <li class="gwu_wd_90">
+                            <label >
+                                <input type="checkbox" >全选
+                            </label>
+                        </li>
+                        <li class="gwu_wd_470">
+                            商品
+                        </li>
+                        <li class="gwu_wd_100">单价 (元)</li>
+                        <li class="gwu_wd_100">数量</li>
+                        <li class="gwu_wd_100">小计 (元)</li>
+                        <li class="gwu_wd_100">操作</li>
+                    </ul>
+                </div>
+                <!--每个品牌-->
+                <!--<div class="gwu_body">-->
+                    <!--<p class="gwu_body_title">-->
+                        <!--<label>-->
+                            <!--<input type="checkbox" checked="true" value="">活泥动力-->
+                        <!--</label>-->
+                    <!--</p>-->
+                    <!--<div class="gwu_body_co">-->
+                        <!--<div class="gwu_body_content">-->
+                            <!--<div class="gwu_content_top">-->
+                                <!--<div class="price_hd">168</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<ul class="gwu_inf">-->
+                            <!--<li class="inf_wd400">-->
+                                <!--<label class="fl">-->
+                                    <!--<input type="checkbox" ckeckbox="true">-->
+                                <!--</label>-->
+                                <!--<div class="inf_img fl">-->
+                                    <!--<a href=""><img src="../images/shangp_01.jpg" ></a>-->
+                                <!--</div>-->
+                                <!--<div class="inf_Text fl">-->
+                                    <!--<a href="" target="_bank">卡斯力低帮鞋子男系带新款真皮潮流商务皮鞋尖头英伦复古雕花男鞋</a>-->
+                                <!--</div>-->
+                            <!--</li>-->
+                            <!--<li class="ing_wd240 fl">-->
+                                <!--<span class="inf_colorSize">-->
+                                    <!--码数 40<br>-->
+                                    <!--颜色 银擦-->
+                                <!--</span>-->
+                            <!--</li>-->
+                            <!--<li class="gwu_wd_100 fl">-->
+                                <!--<p class="inf_price">398.00</p>-->
+                            <!--</li>-->
+                            <!--<li class="gwu_wd_100 fl">-->
+                                <!--<div class="inf_add_count">-->
+                                    <!--<b class="fl">-</b>-->
+                                    <!--<input class="fl" type="text" value="1">-->
+                                    <!--<b class="fl">+</b>-->
+                                <!--</div>-->
+                            <!--</li>-->
+                            <!--<li class="gwu_wd_100 fl">-->
+                                <!--<span class="inf_sum_price">796.00</span>-->
+                            <!--</li>-->
+                            <!--<li class="gwu_wd_100 fl">-->
+                                <!--<a href="javascript:void(0);" class="inf_bttn">删除</a>-->
+                                <!--<a href="javascript:;" class="inf_bttn mt5">加入关注</a>-->
+                            <!--</li>-->
+                            <!--<div class="clear"></div>-->
+                        <!--</ul>-->
+                <div class="gwu_footer mt20" id="gwu_footer">
+                    <ul class="gwu_foot_lis fl">
+                        <li class="gwu_wd_60">
+                            <label>
+                                <input type="checkbox" class="cart_all" checked="true"> 全选
+                            </label>
+                        </li>
+                        <li class="gwu_wd_100 ">
+                            <a href="">删除选中的商品</a>
+                        </li>
+                        <li class="gwu_wd_550">
+                            <a href="">加入关注</a>
+                        </li>
+                        <li class="gwu_wd_100 t_left" >
+                            已选商品<span class="inf_count" >0</span>件
+                        </li>
+                        <li class="gwu_wd_160">
+                            <div class="sum_inf">
+                                总价（不含运费）：<span class="size_color_red">￥<span id="sum_price">0</span>
+                                </span>
+                            </div>
+                            <div class="inf_th">
+                                已节省：¥
+                                <span id="inf_th_price">0</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="" class="gwu_foot_btn fr">结算</a>
+                </div>
+                <div class="other_shop" id="other_shop_hover" >
+                    <ul class="other_shop_ul" id="other_shop_ul">
+                        <li class="fl cur">精选商品</li>
+                        <li class="fl">我的关注</li>
+                        <li class="fl">最近浏览的</li>
+                    </ul>
+                    <div class="ul_shop_box" id="other_shop">
+                        <!--<ul class="shop_box_ul" style="left:0;display:none;">-->
+                            <!--<li>-->
+                                <!--<a href="" class="shop_imgDiv"><img src="images/shangp_img_01.jpg" alt=""></a>-->
+                                <!--<p class="shop_content"><a href="">宝洁新品舒肤佳海盐天然洁净香皂115克 滋润抑菌</a></p>-->
+                                <!--<p class="mt_20_price">¥4.30</p>-->
+                                <!--<a href="" class="go_shop_cart">立即购买</a>-->
+                            <!--</li>-->
+
+                         <!--</ul>-->
+                         <div class="other_shop_tip">
+                             <span style="display:none">亲，网速加载过慢，请给予理解哦！<a href="" color="red">刷新我!</a></span>
+                             <span style="display:none">亲，您还没有关注任何商品哦,赶紧去关注一下自己喜欢的商品吧！<a href="" color="red">猛戳我!</a></span>
+                             <span style="display:none">亲，您还没有浏览任何商品哦,赶紧去浏览一下自己喜欢的商品吧！<a href="" color="red">猛戳我!</a></span>
+                         </div>
+                    </div>
+                    <i class="shop_box_right" style="display:none" >&gt;</i>
+                    <i class="shop_box_left" style="display:none">&lt;</i>
+                </div>
+            </div>
+
+        </div>
+   </div>
+   <!--footer-->
+    <div id="foot_back" style="border-top:1px solid #ccc;">
+        <div id="foot">
+            <div class="layout grid-m J_TLayout">
+                <div class="col-main">
+                    <div class="main-wrap J_TRegion">
+                        <div id="shopModuleId14" class="J_TModule">
+                            <div class="tb-module tshop-um tshop-um-sys_foot2">
+                                <div class="sys_foot2">
+                                    <div class="server">
+                                        <div class="wrap1">
+                                            <dl>
+                                                <dt>
+                                                    <h3>
+                                                        <i class="gw"></i>购物指南
+                                                    </h3>
+                                                </dt>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">怎样购物</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">积分计划</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">订单状态</a>
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+                                                    <h3>
+                                                        <i class="gw"></i>支付帮助
+                                                    </h3>
+                                                </dt>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">网银支付</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">支付宝</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">发票说明</a>
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+                                                    <h3>
+                                                        <i class="gw"></i>配送方式
+                                                    </h3>
+                                                </dt>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">普通快递</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">邮政EMS</a>
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+                                                    <h3>
+                                                        <i class="gw"></i>服务条款
+                                                    </h3>
+                                                </dt>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">售后服务政策</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">售后特色服务</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">退换货说明</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">联系客服</a>
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+                                                    <h3>
+                                                        <i class="gw"></i>关于厂家网
+                                                    </h3>
+                                                </dt>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">消费者为何钟情厂家网</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">厂家网企业官网</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">厂家网简介</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">招贤纳士</a>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                    <div class="wrap1">
+                                        <ul class="list_qr">
+                                            <li>
+                                                <img src="../images/qr1_1_newb.png" class="fl">
+                                                <h3>厂家网客户端</h3>
+                                                <p>想想都喜欢，想想都要爱上它了</p>
+                                                <a href="javascript:;" target="_blank">
+                                                    <i class="ico1"></i>iPhone
+                                                </a>
+                                                <a href="javascript:;" target="_blank">
+                                                    <i class="ico3"></i>Android
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <img src="../images/qr3.png" class="fl">
+                                                <h3>厂家网微信服务号</h3>
+                                                <p>筑梦创业，人人都是CEO，免费福利每天派！</p>
+                                                <p>微信号：cjwsckefu</p>
+                                            </li>
+                                            <li>
+                                                <img src="../images/qr2_new.png" class="fl">
+                                                <h3>厂家网微信订阅号</h3>
+                                                <p>万千优惠资讯抢先收到，尖货好货等你来抢！</p>
+                                                <p>微信号：cjwscscb</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tc bz">
+                                        <img src="../images/flbz1.jpg">
+                                    </div>
+                                    <div class="ft_link">
+                                        <a href="javascript:;" target="_blank" class="nofollow">关于我们</a>|
+                                        <a href="javascript:;" target="_blank" class="nofollow">联系客服</a>|
+                                        <a href="javascript:;" target="_blank" class="nofollow">商家入驻</a>|
+                                        <a href="javascript:;" target="_blank" class="nofollow">隐私保护</a>|
+                                        <a href="javascript:;" target="_blank" class="nofollow">免责条款</a>|
+                                        <a href="javascript:;" target="_blank" class="nofollow">快递查询</a>
+                                    </div>
+                                    <p class="copyright">
+                                        版权所有 厂家网商城 保留所有版权 ICP备案证书号:粤ICP备12093889号,
+                                        <a href="javascript:;">经营许可证编号：粤B2-20140257</a><br>
+                                        Copyright © 2012-2013 www.cjwsc.com,All Rights Reserved
+                                    </p>
+                                    <div class="pic_list">
+                                        <a href="javascript:;" target="_blank" class="nofollow">
+                                            <img src="../images/315new.gif">
+                                        </a>
+                                        <a href="javascript:;" target="_blank" class="nofollow">
+                                            <img width="141" height="55" src="../images/VieID_140_50.png">
+                                        </a>
+                                        <span style="display:inline-block;position:relative;width:auto;">
+                                            <a href="javascript:;" target="_blank" class="nofollow" id="kx_verify" style="display:inline-block;">
+                                                <img width="141" height="55" src="../images/cnnic.png" style="border:none;">
+                                            </a>
+                                        </span>
+                                        <a href="javascript:;" target="_blank" class="nofollow">
+                                            <img width="156" height="45" src="../images/bluelogo.gif">
+                                        </a>
+                                        <a href="javascript:;" target="_blank" class="nofollow">
+                                            <img width="124" height="47" src="../images/sm_124x47.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <script type="text/javascript" src="../js/shop_cart.js"></script>
+</body>
+</html>

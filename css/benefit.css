@@ -1,0 +1,327 @@
+*{
+    margin:0;
+    padding:0;
+    font-weight: normal;
+}
+img {
+    border:none;
+    /*display: block;*/
+}
+ul, ol {
+    list-style:none;
+}
+body {
+    font-family:"微软雅黑","Arial"
+}
+a {
+    color: #000;
+    text-decoration:none;
+}
+input{
+    border: 0;
+    outline: none;
+}
+i,em{
+    font-style: normal;
+}
+.container_back{
+    width:100%;
+    height:1170px;
+}
+.container{
+    width:1263px;
+    height:1170px;
+}
+.bg{
+    width:1263px;
+    height:508px;
+    background:url("../images/be_bg.gif") no-repeat left top;
+}
+.tab{
+    width:1130px;
+    height:92px;
+    padding-left:133px;
+    background:url("../images/tab_bg.gif") repeat left top;
+}
+/*tab切换*/
+.tab ul li{
+    float:left;
+    height:92px;
+    line-height:92px;
+    padding-right:50px;
+    cursor: pointer;
+}
+.tab li span{
+    width:70px;
+    height:92px;
+    float:left;
+}
+.tab li a{
+    font-size: 32px;
+    color:#fff;
+    display: inline-block;
+    float:left;
+}
+.tab li .a1{
+    background:url("../images/a1.gif") no-repeat 20px 32px;
+}
+.tab li .a2{
+    background:url("../images/a2.gif") no-repeat 20px 42px;
+}
+.tab li .a3{
+    background:url("../images/a3.gif") no-repeat 30px 34px;
+}
+.tab li .a4{
+    background:url("../images/a4.gif") no-repeat 24px 32px;
+}
+.tab .active{
+    background:url("../images/tab_bg2.gif") repeat left top;
+}
+/*data日历*/
+.data{
+    width:1263px;
+    height:566px;
+    background-color:#f2ffcd;
+    float:left;
+}
+.data .con_data1{
+    width:962px;
+    height:483px;
+    background-color:#fff;
+    margin-left:131px;
+    margin-top:20px;
+    padding:20px;
+    float:left;
+}
+.title{
+    width:912px;
+    height:44px;
+    font-size: 32px;
+    border-bottom:1px solid #e3e3e3;
+    background:url("../images/tit.png") no-repeat left top;
+}
+.data .con_data1 .day{
+    width:954px;
+    height:418px;
+    margin-top:20px;
+    border:1px solid #36ab3e;
+}
+.day .day_left{
+    width:374px;
+    height:418px;
+    float:left;
+    padding:0 20px;
+}
+.cal .cal_head{
+    width:374px;
+    height:26px;
+    padding:10px 0px;
+    border-bottom:1px solid #36ab3e;
+}
+.cal .cal_head #cal_y{
+    width:80px;
+    height:24px;
+}
+.cal .cal_head #cal_m{
+    width:80px;
+    height:24px;
+}
+.cal .cal_week{
+    width:374px;
+    height:48px;
+    margin-top:10px;
+}
+.cal .cal_week li{
+    width:52px;
+    height:48px;
+    float:left;
+    color:#fff;
+    text-align:center;
+    line-height:48px;
+}
+.cal .cal_week li+li{
+   margin-left:1px;
+}
+.cal .cal_week .week1{
+   background-color:#7dc479;
+}
+.cal .cal_week .week2{
+    background-color:#799ec4;
+}
+.cal .cal_week .week3{
+    background-color:#9479c4;
+}
+.cal .cal_week .week4{
+    background-color:#ce6ab3;
+}
+.cal .cal_week .week5{
+    background-color:#de6685;
+}
+.cal .cal_week .week6{
+    background-color:#abc479;
+}
+.cal .cal_week .week7{
+    background-color:#7dc479;
+}
+
+.cal .cal_day li{
+    width:52px;
+    height:48px;
+    float:left;
+    color:#796666;
+    text-align:center;
+    line-height:48px;
+    margin-right:1px;
+    margin-top: 1px;
+    background-color:#e2effa;
+    cursor:pointer;
+}
+.cal .cal_day .day_data.active{
+    background-color:#ffbb00;
+    color:#fff;
+}
+
+.day .day_right{
+    width:534px;
+    height:413px;
+    float:left;
+    border:3px solid #36ab3e;
+}
+.day .day_right .time{
+    width:285px;
+    height:413px;
+    float:left;
+    border-right:4px solid #36ab3e;
+}
+.day .day_right .time span{
+    cursor:pointer;
+}
+.day .day_right .time .time_year{
+    width:285px;
+    height:137px;
+    float:left;
+    border-bottom:2px solid #36ab3e;
+    background-color:#ffbb00;
+    position: relative;
+}
+.day .day_right .time .time_year .left1{
+    width:33px;
+    height:33px;
+    position: absolute;
+    left:10px;
+    top:30px;
+    border-radius:5px;
+    background:#ffcd45 url("../images/left.gif") no-repeat center;
+}
+.day .day_right .time .time_year .right1{
+    width:33px;
+    height:33px;
+    position: absolute;
+    left:244px;
+    top:30px;
+    border-radius:5px;
+    background:#ffcd45 url("../images/right.gif") no-repeat center;
+}
+.day .day_right .time .time_month{
+    width:285px;
+    height:137px;
+    float:left;
+    border-bottom:2px solid #36ab3e;
+    background-color:#28c2e3;
+    position: relative;
+}
+.day .day_right .time .time_month .left2{
+    width:33px;
+    height:33px;
+    position: absolute;
+    left:10px;
+    top:30px;
+    border-radius:5px;
+    background:#32d8fb url("../images/left.gif") no-repeat center;
+}
+.day .day_right .time .time_month .right2{
+    width:33px;
+    height:33px;
+    position: absolute;
+    left:244px;
+    top:30px;
+    border-radius:5px;
+    background:#32d8fb url("../images/right.gif") no-repeat center;
+}
+.day .day_right .time .time_day{
+    width:285px;
+    height:135px;
+    float:left;
+    background-color:#b5d60e;
+    position: relative;
+}
+.day .day_right .time .time_day .left3{
+    width:33px;
+    height:33px;
+    position: absolute;
+    left:10px;
+    top:30px;
+    border-radius:5px;
+    background:#c6e52a url("../images/left.gif") no-repeat center;
+}
+.day .day_right .time .time_day .right3{
+    width:33px;
+    height:33px;
+    position: absolute;
+    left:244px;
+    top:30px;
+    border-radius:5px;
+    background:#c6e52a url("../images/right.gif") no-repeat center;
+}
+.day .day_right .time i{
+    width:285px;
+    height:96px;
+    font-size:48px;
+    color:#fff;
+    text-align:center;
+    line-height:96px;
+    display: inline-block;
+}
+.day .day_right .time p{
+    width:285px;
+    height:41px;
+    font-size:18px;
+    color:#fff;
+    text-align:center;
+    display: inline-block;
+}
+.day .day_right .donor{
+    width:228px;
+    height:413px;
+    padding-left:12px;
+    overflow:auto;
+}
+.day .day_right .donor li{
+    width:228px;
+    height:62px;
+    margin-top:8px;
+}
+.day .day_right .donor .do1{
+    width:64px;
+    height:62px;
+    float:left;
+    background:url("../images/user.gif") no-repeat center;
+}
+.day .day_right .donor .do2{
+    width:150px;
+    height:62px;
+    float:left;
+    color:#555;
+    padding-left:14px;
+}
+.day .day_right .donor .do2 em{
+    display: inline-block;
+    padding:10px 0 20px 0;
+}
+.day .day_right .donor .do2 span{
+    color:#008000;
+}
+
+
+
+

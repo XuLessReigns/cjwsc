@@ -1,0 +1,102 @@
+[
+  {
+    "price":"4.30","introduce":"宝洁新品舒肤佳海盐天然洁净香皂115克 滋润抑菌",
+    "pic":"../images/shangp_img_01.jpg",
+    "getpath":"details.html"
+  },
+  {
+    "price":"5.20","introduce":"舒肤佳活力运动劲爽去味香皂125克 含清凉薄荷精华",
+    "pic":"../images/shangp_img_02.jpg",
+    "getpath":"details.html"
+  },
+  {
+    "price":"4.30","introduce":"舒肤佳金银花/菊花自然爽洁型香皂125克",
+    "pic":"../images/shangp_img_03.jpg",
+    "getpath":"details.html"
+  },
+  {
+    "price":"6.30","introduce":"舒肤佳纯白清香型香皂115克",
+    "pic":"../images/shangp_img_04.jpg",
+    "getpath":"details.html"
+  },
+  {
+    "price":"6.30","introduce":"舒肤佳纯白清香型香皂115克",
+    "pic":"../images/shangp_img_05.jpg",
+    "getpath":"detail.html"
+  },
+
+  {
+    "price":"6.30","introduce":"舒肤佳薄荷冰怡舒爽型香皂125克 清洁抑菌",
+    "pic":"../images/shangp_img_06.jpg",
+    "getpath":"details.html"
+  },
+  {
+    "price":"6.90","introduce":"舒肤佳薄荷冰怡舒爽型香皂125克 清洁抑菌",
+    "pic":"../images/shangp_img_07.jpg",
+    "getpath":"details.html"
+  },
+  {
+    "price":"9.30","introduce":"舒肤佳洗手液纯白清香+柠檬清新+芦荟呵护型450ML*3瓶 香味任选",
+    "pic":"../images/shangp_img_08.jpg",
+    "getpath":"details.html"
+  },
+  {
+    "price":"11.30","introduce":"舒肤佳薰衣草舒缓呵护沐浴露720毫升",
+    "pic":"../images/shangp_img_09.jpg",
+    "getpath":"detail.html"
+  },
+  {
+    "price":"6.30","introduce":"舒肤佳薄荷冰怡舒爽型沐浴露400毫升",
+    "pic":"../images/shangp_img_10.jpg",
+    "getpath":"details.html"
+  },{
+  "price":"12.50","introduce":"舒肤佳薰衣草舒缓呵护香皂115克X3",
+  "pic":"../images/shangp_img_11.jpg",
+  "getpath":"details.html"
+},
+  {
+    "price":"12.50","introduce":"舒肤佳香皂混合三块装（纯白清香X2+柠檬清新X1)",
+    "pic":"../images/shangp_img_12.jpg",
+    "getpath":"details.html"
+  },
+  {
+    "price":"12.30","introduce":"舒肤佳柠檬清新型香皂115克x3 除菌率达99%",
+    "pic":"../images/shangp_img_13.jpg",
+    "getpath":"details.html"
+  },
+  {
+    "price":"12.50","introduce":"正品 舒肤佳纯白清香型香皂115克x3 温和配方用后不紧绷",
+    "pic":"../images/shangp_img_14.jpg",
+    "getpath":"details.html"
+  },
+  {
+    "price":"12.50","introduce":"舒肤佳金银花/菊花自然爽洁型香皂115克x3",
+    "pic":"../images/shangp_img_15.jpg",
+    "getpath":"details.html"
+  },
+  {
+    "price":"34.00","introduce":"正品 舒肤佳活力运动劲醒焕活沐浴露720毫升",
+    "pic":"../images/shangp_img_16.jpg",
+    "getpath":"details.html"
+  },
+  {
+    "price":"33.00","introduce":"宝洁新品 舒肤佳海盐天然洁净沐浴露720毫升",
+    "pic":"../images/shangp_img_17.jpg",
+    "getpath":"details.html"
+  },
+  {
+    "price":"11.50","introduce":"舒肤佳柠檬清新型沐浴露200毫升",
+    "pic":"../images/shangp_img_18.jpg",
+    "getpath":"details.html"
+  },
+  {
+    "price":"11.30","introduce":"舒肤佳纯白清香型沐浴露200毫升 ",
+    "pic":"../images/shangp_img_19.jpg",
+    "getpath":"details.html"
+  },
+  {
+    "price":"32.90","introduce":"舒肤佳专效护理专效舒缓沐浴露650毫升 高端除菌系列",
+    "pic":"../images/shangp_img_20.jpg",
+    "getpath":"details.html"
+  }
+]

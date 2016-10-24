@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>020店铺</title>
+    <link rel="stylesheet" href="../css/020shop.css">
+    <script src="../js/jquery-1.12.4.js"></script>
+    <script src="../js/nav.js"></script>
+</head>
+<body>
+    <!--头部位置-->
+    <!--header-->
+    <div id="header_back">
+        <div id="header">
+            <ul class="header_left">
+                <li class="header_p">
+                    <a class="mobile_client cap" target="_blank" href="javascript:;">
+                        <i class="ico_tel"></i>
+                        移动客户端
+                        <i class="arr"></i>
+                    </a>
+                    <div class="subset">
+                        <img class="ewm" src="../images/APP_1.png" width="84px"/>
+                        <p class="ewm_font">
+                            厂家网商城移动app
+                            <span class="red">扫扫有惊喜哦！</span>
+                        </p>
+                    </div>
+                </li>
+                <li class="header_p">
+                    <a class="weChat cap">
+                        <i class="ico_tel"></i>
+                        微信服务号
+                        <i class="arr"></i>
+                    </a>
+                    <div class="subset">
+                        <img class="ewm" src="../images/qr3.png" width="84px"/>
+                        <p class="ewm_font">
+                            更便捷的尊享服务
+                            <span class="red">免费奖品兑换！</span>
+                        </p>
+                    </div>
+                </li>
+                <li class="header_p">
+                    <a href="javascript:;">
+                        <i class="ico_wb"></i>
+                        官方微博
+                    </a>
+                </li>
+                <li>
+                    欢迎光临厂家网
+                    <span class="top_user_info">
+                        <a href="login.html" target="_blank" class="c_org">请登录</a>
+                    </span>
+                    <a href="register.html" target="_blank" class="ml_10">免费注册</a>
+                </li>
+            </ul>
+            <ul class="header_right">
+                <li class="noborder">
+                    <a href="javascript:;">我的订单</a>
+                </li>
+                <li>
+                    <a href="javascript:;">我的厂家网</a>
+                </li>
+                <li class="header_p">
+                    <a href="javascript:;" class="cap">服务中心<i class="arr"></i></a>
+                    <div class="subset sv">
+                        <a href="javascript:;" target="_blank">售后服务</a>
+                        <a href="javascript:;" target="_blank">在线客服</a>
+                        <a href="javascript:;" target="_blank">投诉中心</a>
+                        <a href="javascript:;" target="_blank">千城万店</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">厂家网公告</a>
+                </li>
+                <li>
+                    <a href="cjwlt.html" target="_blank">厂家网论坛</a>
+                </li>
+                <li>
+                    <a href="javascript:;">客户服务</a>
+                </li>
+                <li class="header_p">
+                    <a href="javascript:;" class="cap">网站导航<i class="arr"></i></a>
+                    <div class="subset sv">
+                        <a href="javascript:;" target="_blank">企业论坛</a>
+                        <a href="official.html" target="_blank">企业官网</a>
+                        <a href="opening.html" target="_blank">招贤纳士</a>
+                        <a href="benefit.html" target="_blank">厂家网公益</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--LOGO-->
+    <div id="logo_back">
+        <div id="logo">
+            <div class="logo fl">
+                <a href="index.html" style="width: 305px;" class="fl">厂家网,让消费致富成为现实</a>
+            </div>
+            <div class="search fl">
+                <div class="search_top">
+                    <input type="text" class="s_txt fl">
+                    <a href="javascript:;" class="s_btn fl">搜索</a>
+                </div>
+                <div class="search_bottom">
+                    <a href="newly.html" target="_blank" style="color:red;">新季新款</a><i>|</i>
+                    <a href="listGuo.html" target="_blank" style="color:#999;">不粘锅</a><i>|</i>
+                    <a href="listFood.html" target="_blank" style="color:#999;">休闲零食</a><i>|</i>
+                    <a href="bottine.html" target="_blank" style="color:#999;">女靴</a><i>|</i>
+                    <a href="cheongsam.html" target="_blank" style="color:red;">旗袍</a><i>|</i>
+                    <a href="new_dress.html" target="_blank" style="color:red;">新款连衣裙</a><i>|</i>
+                </div>
+            </div>
+            <div class="l_cart" id="h_cart_container">
+                <div class="h_cart h_rt_md fl">
+                    <p class="num">
+                        <span class="J_CartNum">0</span>
+                    </p>
+                    <div class="cap">
+                        <a href="goshang.html" target="_blank">购物车</a>
+                        <i class="ico_ct"></i>
+                    </div>
+                    <div class="h_rt_sub " id="h_rt_md_cart">
+                        <div class="hdDiv hide" id="hdDiv">
+                            <span class="jijiawh" style="float: right;padding-right: 20px;">
+                                小计：￥
+                                <span class="J_CartTotal">0</span>
+                            </span>
+                        </div>
+                        <ul class="listNew J_BannerCart">
+                            <li class="empty_cart" style="line-height: 50px;">
+                                <div style="color:red;height: 50px;display: block;text-align: center;">
+                                    <i class="ico_ct"></i>
+                                    亲，请登录后再来查看吧！
+                                </div>
+                            </li>
+                        </ul>
+                        <div id="dwDiv" class="dwDiv hide ">
+                            <span>
+                                共<span class="J_CartNum">0</span>件商品
+                            </span>&nbsp;
+                            <span class="ml_3 ">
+                                共计：
+                                <span class="fontSize_14 colorRed_da ">
+                                    ￥<span class="J_CartTotal">0</span>
+                                </span>
+                            </span>
+                            <a href="javascript:;" class="btn">去购物车>></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--NAV-->
+    <div id="nav_back">
+        <div id="nav">
+            <div class="tb-module tshop-um tshop-um-sys_nav_ch2
+ tshop-um-sys_nav_home ">
+                <div class="sys_nav_ch" style="position:relative">
+                    <div class="nav_w" style="background:#da3e49;">
+                        <div class="classify">
+                            <h2>
+                                <a class="category_head">商品所有分类</a>
+                            </h2>
+                            <ul id="menu" style="display: none;" class="menu">
+                                <!--<li class="m1" data-id="1">-->
+                                <!--<h3>-->
+                                <!--<span style="position:relative;padding-left:25px">-->
+                                <!--<i class="shen_li pic_1"></i>-->
+                                <!--<a href="javascript:;" target="_blank">服装内衣</a>-->
+                                <!--</span>-->
+                                <!--</h3>-->
+                                <!--<div class="menu_i" id="cat_item_1" style="display: none;">-->
+                                <!--<div class="thb clearfix">-->
+                                <!--<div class="wh50">-->
+                                <!--<span class="ht">-->
+                                <!--<a href="javascript:;" target="_blank">服装内衣</a>-->
+                                <!--</span>-->
+                                <!--</div>-->
+                                <!--<div class="wh50 rht">-->
+                                <!--<a href="javascript:;" target="_blank">更多</a>-->
+                                <!--<i></i>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="dlDiv dumascroll clearfix  " id="dumaScrollAreaId_42" style="position: relative;">-->
+                                <!--<div id="dumaScrollAreaId_42Area" class="dumascroll_area">-->
+                                <!--<div class="fl">-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">内衣</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank">文胸</a>-->
+                                <!--<a href="javascript:;" target="_blank">内裤</a>-->
+                                <!--<a href="javascript:;" target="_blank">家具服</a>-->
+                                <!--<a href="javascript:;" target="_blank">基础内衣</a>-->
+                                <!--<a href="javascript:;" target="_blank">袜子</a>-->
+                                <!--<a href="javascript:;" target="_blank">内衣</a>-->
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">童装</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank">套装</a>-->
+                                <!--<a href="javascript:;" target="_blank">上装</a>-->
+                                <!--<a href="javascript:;" target="_blank">下装</a>-->
+                                <!--<a href="javascript:;" target="_blank">内衣/家居服</a>-->
+                                <!--<a href="javascript:;" target="_blank">羽绒服/棉服</a>-->
+                                <!--<a href="javascript:;" target="_blank">亲子装</a>-->
+                                <!--<a href="javascript:;" target="_blank">裙装</a>-->
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">其他</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">家庭装</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank">情侣装</a>-->
+                                <!--<a href="javascript:;" target="_blank">亲子装</a>-->
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">舞蹈服</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">瑜伽服</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">女装</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank">上装</a>-->
+                                <!--<a href="javascript:;" target="_blank">下装</a>-->
+                                <!--<a href="javascript:;" target="_blank">裙装</a>-->
+                                <!--<a href="javascript:;" target="_blank">特色</a>-->
+                                <!--<a href="javascript:;" target="_blank">外套</a>-->
+                                <!--<a href="javascript:;" target="_blank">套装</a>-->
+                                <!--<a href="javascript:;" target="_blank">老人装</a>-->
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">男装</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank">上装</a>-->
+                                <!--<a href="javascript:;" target="_blank">下装</a>-->
+                                <!--<a href="javascript:;" target="_blank">外套</a>-->
+                                <!--<a href="javascript:;" target="_blank">特色</a>-->
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">服饰配件/皮带/帽子/围巾</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank">围巾/领带</a>-->
+                                <!--<a href="javascript:;" target="_blank">帽子/手套</a>-->
+                                <!--<a href="javascript:;" target="_blank">腰带</a>-->
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--<div id="dumaScrollAreaId_42Bar" class="dumascroll_bar">-->
+                                <!--<div class="dumascroll_arrow_up"></div>-->
+                                <!--<div class="dumascroll_handle" style="top: 0px; height: 64px; opacity: 1;"></div>-->
+                                <!--<div class="dumascroll_arrow_down"></div>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="bn_w clearfix" id="bn_w1">-->
+                                <!--<div class="banner" id="banner_1">-->
+                                <!--<div class="img">-->
+                                <!--<a href="javascript:;" target="_blank">-->
+                                <!--<img src="../images/c00b21fe060f128041c142b3d4d7b045.jpg" style="display: inline" index="0" alt="1">-->
+                                <!--</a>-->
+                                <!--</div>-->
+                                <!--<div class="ico">-->
+                                <!--<ol class="fl">-->
+                                <!--<li class="cur" style="width: 34px;">0</li>-->
+                                <!--</ol>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--<div id="adtextDiv1" class="adtextDiv">-->
+                                <!--<p class="tht">品牌推荐</p>-->
+                                <!--<dl class="clearfix">-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank" title="韩都衣舍">韩都衣舍</a>-->
+                                <!--</dd>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank" title="媚倾">媚倾</a>-->
+                                <!--</dd>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank" title="香兰杜若">香兰杜若</a>-->
+                                <!--</dd>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank" title="奢卡利">奢卡利</a>-->
+                                <!--</dd>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank" title="缔五季">缔五季</a>-->
+                                <!--</dd>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank" title="简布秀姿">简布秀姿</a>-->
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--</li>-->
+                                <!--<li class="m2 bg" data-id="3">-->
+                                <!--<h3>-->
+                                <!--<span style="position:relative;padding-left:25px">-->
+                                <!--<i class="shen_li pic_3"></i>-->
+                                <!--<a href="javascript:;" target="_blank">鞋子箱包</a>-->
+                                <!--</span>-->
+                                <!--</h3>-->
+                                <!--<div class="menu_i" id="cat_item_3" style="display: none;">-->
+                                <!--<div class="thb clearfix">-->
+                                <!--<div class="wh50">-->
+                                <!--<span class="ht">-->
+                                <!--<a href="javascript:;" target="_blank">鞋子箱包</a>-->
+                                <!--</span>-->
+                                <!--</div>-->
+                                <!--<div class="wh50 rht">-->
+                                <!--<a href="javascript:;" target="_blank">更多</a>-->
+                                <!--<i></i>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="dlDiv dumascroll clearfix  " id="dumaScrollAreaId_42" style="position: relative;">-->
+                                <!--<div id="dumaScrollAreaId_42Area" class="dumascroll_area">-->
+                                <!--<div class="fl">-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">老人鞋</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">情侣鞋</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">溜冰鞋</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">球鞋</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank">篮球鞋</a>-->
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">拖鞋</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank">女士</a>-->
+                                <!--<a href="javascript:;" target="_blank">男士</a>-->
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">童鞋</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank">运动鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">单鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">鞋子</a>-->
+                                <!--<a href="javascript:;" target="_blank">凉鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">功能鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">板鞋</a>-->
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">女鞋</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank">鞋子</a>-->
+                                <!--<a href="javascript:;" target="_blank">板鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">慢跑鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">登山鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">高跟鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">特色鞋区</a>-->
+                                <!--<a href="javascript:;" target="_blank">休闲鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">凉鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">单鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">增高鞋</a>-->
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">男鞋</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank">休闲鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">凉鞋/沙滩鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">商务鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">男鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">其他</a>-->
+                                <!--<a href="javascript:;" target="_blank">登山鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">慢跑鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">板鞋</a>-->
+                                <!--<a href="javascript:;" target="_blank">增高鞋</a>-->
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">女包</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank">钱包/卡包</a>-->
+                                <!--<a href="javascript:;" target="_blank">手拿包</a>-->
+                                <!--<a href="javascript:;" target="_blank">单肩包</a>-->
+                                <!--<a href="javascript:;" target="_blank">双肩包</a>-->
+                                <!--<a href="javascript:;" target="_blank">手提包</a>-->
+                                <!--<a href="javascript:;" target="_blank">斜跨包</a>-->
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">男包</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank">钱包/卡包</a>-->
+                                <!--<a href="javascript:;" target="_blank">男士手包</a>-->
+                                <!--<a href="javascript:;" target="_blank">腰带/礼盒</a>-->
+                                <!--<a href="javascript:;" target="_blank">商务公文包</a>-->
+                                <!--<a href="javascript:;" target="_blank">双肩包</a>-->
+                                <!--<a href="javascript:;" target="_blank">单肩包</a>-->
+                                <!--<a href="javascript:;" target="_blank">斜挎包</a>-->
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--<dl>-->
+                                <!--<dt>-->
+                                <!--<a href="javascript:;" target="_blank">功能箱包</a>-->
+                                <!--<i></i>-->
+                                <!--</dt>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank">电脑数码包</a>-->
+                                <!--<a href="javascript:;" target="_blank">双肩包</a>-->
+                                <!--<a href="javascript:;" target="_blank">收纳包</a>-->
+                                <!--<a href="javascript:;" target="_blank">旅行配件</a>-->
+                                <!--<a href="javascript:;" target="_blank">书包</a>-->
+                                <!--<a href="javascript:;" target="_blank">登山包</a>-->
+                                <!--<a href="javascript:;" target="_blank">休闲运动包</a>-->
+                                <!--<a href="javascript:;" target="_blank">拉杆箱</a>-->
+                                <!--<a href="javascript:;" target="_blank">旅行包</a>-->
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--<div id="dumaScrollAreaId_42Bar" class="dumascroll_bar">-->
+                                <!--<div class="dumascroll_arrow_up"></div>-->
+                                <!--<div class="dumascroll_handle" style="top: 0px; height: 64px; opacity: 1;"></div>-->
+                                <!--<div class="dumascroll_arrow_down"></div>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="bn_w clearfix" id="bn_w1">-->
+                                <!--<div class="banner" id="banner_1">-->
+                                <!--<div class="img">-->
+                                <!--<a href="javascript:;" target="_blank">-->
+                                <!--<img src="../images/0ad5a9d2cd774249caecf6b58b2c42b9.jpg" style="display: inline" index="0" alt="1">-->
+                                <!--</a>-->
+                                <!--</div>-->
+                                <!--<div class="ico">-->
+                                <!--<ol class="fl">-->
+                                <!--<li class="cur" style="width: 34px;">0</li>-->
+                                <!--</ol>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--<div id="adtextDiv1" class="adtextDiv">-->
+                                <!--<p class="tht">品牌推荐</p>-->
+                                <!--<dl class="clearfix">-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank" title="花花公子">花花公子</a>-->
+                                <!--</dd>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank" title="百牧林">百牧林</a>-->
+                                <!--</dd>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank" title="古奇天伦">古奇天伦</a>-->
+                                <!--</dd>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank" title="王菲儿">王菲儿</a>-->
+                                <!--</dd>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank" title="银座">银座</a>-->
+                                <!--</dd>-->
+                                <!--<dd>-->
+                                <!--<a href="javascript:;" target="_blank" title="宋黛儿">宋黛儿</a>-->
+                                <!--</dd>-->
+                                <!--</dl>-->
+                                <!--</div>-->
+                                <!--</div>-->
+                                <!--</li>-->
+                                <!--<li class="m3" data-id="65">-->
+                                <!--<h3>-->
+                                <!--<span style="position:relative;padding-left:25px">-->
+                                <!--<i class="shen_li pic_65"></i>-->
+                                <!--<a href="javascript:;" target="_blank">食品健康</a>-->
+                                <!--</span>-->
+                                <!--</h3>-->
+                                <!--</li>-->
+                                <!--<li class="m4 bg" data-id="51">-->
+                                <!--<h3>-->
+                                <!--<span style="position:relative;padding-left:25px">-->
+                                <!--<i class="shen_li pic_51"></i>-->
+                                <!--<a href="javascript:;" target="_blank">珠宝饰品</a>-->
+                                <!--</span>-->
+                                <!--</h3>-->
+                                <!--</li>-->
+                                <!--<li class="m5" data-id="57">-->
+                                <!--<h3>-->
+                                <!--<span style="position:relative;padding-left:25px">-->
+                                <!--<i class="shen_li pic_57"></i>-->
+                                <!--<a href="javascript:;" target="_blank">个护化妆</a>-->
+                                <!--</span>-->
+                                <!--</h3>-->
+                                <!--</li>-->
+                                <!--<li class="m6 bg" data-id="58">-->
+                                <!--<h3>-->
+                                <!--<span style="position:relative;padding-left:25px">-->
+                                <!--<i class="shen_li pic_58"></i>-->
+                                <!--<a href="javascript:;" target="_blank">运动户外</a>-->
+                                <!--</span>-->
+                                <!--</h3>-->
+                                <!--</li>-->
+                                <!--<li class="m7" data-id="59">-->
+                                <!--<h3>-->
+                                <!--<span style="position:relative;padding-left:25px">-->
+                                <!--<i class="shen_li pic_59"></i>-->
+                                <!--<a href="javascript:;" target="_blank">母婴玩具</a>-->
+                                <!--</span>-->
+                                <!--</h3>-->
+                                <!--</li>-->
+                                <!--<li class="m8 bg" data-id="60">-->
+                                <!--<h3>-->
+                                <!--<span style="position:relative;padding-left:25px">-->
+                                <!--<i class="shen_li pic_60"></i>-->
+                                <!--<a href="javascript:;" target="_blank">手机数码/电脑办公</a>-->
+                                <!--</span>-->
+                                <!--</h3>-->
+                                <!--</li>-->
+                                <!--<li class="m9" data-id="61">-->
+                                <!--<h3>-->
+                                <!--<span style="position:relative;padding-left:25px">-->
+                                <!--<i class="shen_li pic_61"></i>-->
+                                <!--<a href="javascript:;" target="_blank">汽车用品</a>-->
+                                <!--</span>-->
+                                <!--</h3>-->
+                                <!--</li>-->
+                                <!--<li class="m10 bg" data-id="62">-->
+                                <!--<h3>-->
+                                <!--<span style="position:relative;padding-left:25px">-->
+                                <!--<i class="shen_li pic_62"></i>-->
+                                <!--<a href="javascript:;" target="_blank">家用电器</a>-->
+                                <!--</span>-->
+                                <!--</h3>-->
+                                <!--</li>-->
+                                <!--<li class="m11" data-id="63">-->
+                                <!--<h3>-->
+                                <!--<span style="position:relative;padding-left:25px">-->
+                                <!--<i class="shen_li pic_63"></i>-->
+                                <!--<a href="javascript:;" target="_blank">居家家纺</a>-->
+                                <!--</span>-->
+                                <!--</h3>-->
+                                <!--</li>-->
+                                <!--<li class="m12 bg" data-id="64">-->
+                                <!--<h3>-->
+                                <!--<span style="position:relative;padding-left:25px">-->
+                                <!--<i class="shen_li pic_64"></i>-->
+                                <!--<a href="javascript:;" target="_blank">家居建材</a>-->
+                                <!--</span>-->
+                                <!--</h3>-->
+                                <!--</li>-->
+                                <!--<li class="m13" data-id="3402">-->
+                                <!--<h3>-->
+                                <!--<span style="position:relative;padding-left:25px">-->
+                                <!--<i class="shen_li pic_3402"></i>-->
+                                <!--<a href="javascript:;" target="_blank">文化娱乐</a>-->
+                                <!--</span>-->
+                                <!--</h3>-->
+                                <!--</li>-->
+
+                            </ul>
+                        </div>
+                        <ul class="nav fl" id="navchs">
+                            <li class="curth color_rebg">
+                                <a href="index.html" class="navfl" target="_self">首页</a>
+                            </li>
+                            <li class="">
+                                <a href="clothCity.html" class="navfl" target="_self">服装城</a>
+                            </li>
+                            <li class="">
+                                <a href="javascript:;" class="navfl" target="_self">双倍积分</a>
+                            </li>
+                            <li class="">
+                                <a href="020shop.html" target="_self" class="navfl" target="_self">020店铺</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--中间大图位置-->
+    <div class="banner"></div>
+    <!--吸顶容器-->
+    <!--宽度自适应-->
+    <div class="nav-height" id="navHeight">
+        <nav class="nav-wrap" id="nav-wrap">
+            <div class="nav-mobile">Click</div>
+            <ul class="clearfix">
+                <li><a href="#section01" class="active">广东普宁店</a></li>
+                <li><a href="#section02">宝安璟运店</a></li>
+                <li><a href="#section03">广东河源店</a></li>
+                <li><a href="#section04">东莞丽城店</a></li>
+                <li><a href="#section05">江西赣州店</a></li>
+                <li><a href="#section06">江西安远店</a></li>
+                <li><a href="#section07">江西会昌店</a></li>
+                <li><a href="#section08">江西于都店</a></li>
+                <li><a href="#section09">江西修水店</a></li>
+                <li><a href="#section10">江西宁都店</a></li>
+                <li><a href="#section11">江西瑞金店</a></li>
+                <li><a href="#section12">广西荔浦店</a></li>
+                <li><a href="#section13">广西平南店</a></li>
+                <li><a href="#section14">广西武鸣店</a></li>
+                <li><a href="#section15">湖南洞口店</a></li>
+                <li><a href="#section16">湖南塘渡口店</a></li>
+                <li><a href="#section17">湖南新宁店</a></li>
+                <li><a href="#section18">陕西宁强店</a></li>
+                <li><a href="#section19">陕西汉中店</a></li>
+                <li><a href="#section20">厂家网O2O自营店</a></li>
+                <li><a href="#section21">广东汕尾店</a></li>
+                <li><a href="#section22">广东英德店</a></li>
+                <li><a href="#section23">军埔孵化基地</a></li>
+                <li><a href="#section24">江西龙南店</a></li>
+                <li><a href="#section25">江西大余店</a></li>
+            </div>
+        </div>
+    </div>
+    <!--版心-->
+    <div class="container">
+        <!--广东普宁店-->
+        <div class="puning" id="section01">
+            <!--店名头部-->
+            <div class="tit" >
+                <h3>
+                    <em >广东普宁店</em>
+                    <i></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">广东省揭阳市普宁市赤华北路</span><br>
+                    电话：<span class="j_phone">13903082999</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--宝安璟运店-->
+        <div class="puning" id="section02">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >宝安璟运店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">深圳市宝安区西乡大道与宝源路交汇处璟运大厦</span><br>
+                    电话：<span class="j_phone">0755-27721497</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--广东河源店-->
+        <div class="puning" id="section03">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >广东河源店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">广东省河源市源城区坚基商业中心</span><br>
+                    电话：<span class="j_phone">13539135257</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--东莞丽城店-->
+        <div class="puning" id="section04">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >东莞丽城店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">常平镇丽城隐贤山庄大道8号(常平镇,隐贤大道,隐贤山庄,常马大道路口)</span><br>
+                    电话：<span class="j_phone">15307690268</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--江西赣州店-->
+        <div class="puning" id="section05">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >江西赣州店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">红旗大道延伸段嘉福国际A栋8-14#、37-43#商铺</span><br>
+                    电话：<span class="j_phone">0797-8085688</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--江西安远店-->
+        <div class="puning" id="section06">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >江西安远店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">江西省赣州市安远县财富广场一楼</span><br>
+                    电话：<span class="j_phone">15970986609</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--江西会昌店-->
+        <div class="puning" id="section07">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >江西会昌店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">江西省赣州市会昌县文化广场116号</span><br>
+                    电话：<span class="j_phone">18970722567</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--江西于都店-->
+        <div class="puning" id="section08">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >江西于都店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">江西省赣州市于都县滨江大道汇金广场</span><br>
+                    电话：<span class="j_phone">13387075888</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--江西修水店-->
+        <div class="puning" id="section09">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >江西修水店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">江西省九江市修水县山谷大道凯旋国际</span><br>
+                    电话：<span class="j_phone">13750246362</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--江西宁都店-->
+        <div class="puning" id="section10">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >江西宁都店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">江西省赣州市宁都县第三中学对面厂家网</span><br>
+                    电话：<span class="j_phone">13970718616</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--江西瑞金店-->
+        <div class="puning" id="section11">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >江西瑞金店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">江西省瑞金市锦江名城乐水园A127</span><br>
+                    电话：<span class="j_phone">17779703628</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--广西荔浦店-->
+        <div class="puning" id="section12">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >广西荔浦店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">广西省桂林市荔浦县滨江路大发商贸城</span><br>
+                    电话：<span class="j_phone">13807833211</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--广西平南店-->
+        <div class="puning" id="section13">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >广西平南店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">广西省平南县朝阳路57号巴黎城</span><br>
+                    电话：<span class="j_phone">13878533278</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--广西武鸣店-->
+        <div class="puning" id="section14">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >广西武鸣店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">广西省南宁市武鸣县龙润大酒家</span><br>
+                    电话：<span class="j_phone">13707887067</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--湖南洞口店-->
+        <div class="puning" id="section15">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >湖南洞口店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">湖南省洞口县峡口路洞口步行街正对面（雪峰广场旁）</span><br>
+                    电话：<span class="j_phone">18373980108</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--湖南塘渡口店-->
+        <div class="puning" id="section16">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >湖南塘渡口店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">湖南省邵阳县振羽大道中宏步行街</span><br>
+                    电话：<span class="j_phone">18175955777</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--湖南新宁店-->
+        <div class="puning" id="section17">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >湖南新宁店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">暂定</span><br>
+                    电话：<span class="j_phone">15173949505</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--陕西宁强店-->
+        <div class="puning" id="section18">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >陕西宁强店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">陕西省汉中市宁强县建设路</span><br>
+                    电话：<span class="j_phone">13909166818</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--陕西汉中店-->
+        <div class="puning" id="section19">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >陕西汉中店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">陕西省汉中市人民路与兴汗路十字东北角广厦名品</span><br>
+                    电话：<span class="j_phone">17392012110</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--厂家网O2O自营店-->
+        <div class="puning" id="section20">
+            <!--店名头部-->
+            <div class="tit self">
+                <h3>
+                    <em >厂家网O2O自营店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">深圳市宝安区宝源路2003号璟运大厦411室O2O运营中心</span><br>
+                    电话：<span class="j_phone">18681564994</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--广东汕尾店-->
+        <div class="puning" id="section21">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >广东汕尾店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">汕尾大道房地产交易中心办公楼三层302室</span><br>
+                    电话：<span class="j_phone">13828980148</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--广东英德店-->
+        <div class="puning" id="section22">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >广东英德店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">广东英德店富强东路电子商务产业园二楼</span><br>
+                    电话：<span class="j_phone">13726955081</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--军埔孵化基地-->
+        <div class="puning" id="section23">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >军埔孵化基地</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">广东省揭阳市揭东县军埔电子商务村华尔美网批城2楼</span><br>
+                    电话：<span class="j_phone"></span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--江西龙南店-->
+        <div class="puning" id="section24">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >江西龙南店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">江西省赣州市龙南县金水大道中段366号 (农牧局斜对面)</span><br>
+                    电话：<span class="j_phone">18979762333</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+        <!--江西大余店-->
+        <div class="puning" id="section25">
+            <!--店名头部-->
+            <div class="tit">
+                <h3>
+                    <em >江西大余店</em>
+                    <i ></i>
+                </h3>
+                <p class="fl">
+                    地址：<span class="j_address">江西省赣州市大余县南安镇余西街建设路香樟华府10-11商铺</span><br>
+                    电话：<span class="j_phone">18607073188</span>
+                </p>
+                <a href="020store.html" class="fr">进入店铺 &gt;</a>
+            </div>
+            <!--图片正文-->
+            <ul class="list"></ul>
+        </div>
+    <!--结尾-->
+        <!--版心结束-->
+    </div>
+    <!--footer-->
+    <div id="foot_back">
+        <div id="foot">
+            <div class="layout grid-m J_TLayout">
+                <div class="col-main">
+                    <div class="main-wrap J_TRegion">
+                        <div id="shopModuleId14" class="J_TModule">
+                            <div class="tb-module tshop-um tshop-um-sys_foot2">
+                                <div class="sys_foot2">
+                                    <div class="server">
+                                        <div class="wrap1">
+                                            <dl>
+                                                <dt>
+                                                <h3>
+                                                    <i class="gw"></i>购物指南
+                                                </h3>
+                                                </dt>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">怎样购物</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">积分计划</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">订单状态</a>
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+                                                <h3>
+                                                    <i class="gw"></i>支付帮助
+                                                </h3>
+                                                </dt>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">网银支付</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">支付宝</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">发票说明</a>
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+                                                <h3>
+                                                    <i class="gw"></i>配送方式
+                                                </h3>
+                                                </dt>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">普通快递</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">邮政EMS</a>
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+                                                <h3>
+                                                    <i class="gw"></i>服务条款
+                                                </h3>
+                                                </dt>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">售后服务政策</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">售后特色服务</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">退换货说明</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">联系客服</a>
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+                                                <h3>
+                                                    <i class="gw"></i>关于厂家网
+                                                </h3>
+                                                </dt>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">消费者为何钟情厂家网</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">厂家网企业官网</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">厂家网简介</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:;" target="_blank" class="nofollow">招贤纳士</a>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                    <div class="wrap1">
+                                        <ul class="list_qr">
+                                            <li>
+                                                <img src="../images/qr1_1_newb.png" class="fl">
+                                                <h3>厂家网客户端</h3>
+                                                <p>想想都喜欢，想想都要爱上它了</p>
+                                                <a href="javascript:;" target="_blank">
+                                                    <i class="ico1"></i>iPhone
+                                                </a>
+                                                <a href="javascript:;" target="_blank">
+                                                    <i class="ico3"></i>Android
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <img src="../images/qr3.png" class="fl">
+                                                <h3>厂家网微信服务号</h3>
+                                                <p>筑梦创业，人人都是CEO，免费福利每天派！</p>
+                                                <p>微信号：cjwsckefu</p>
+                                            </li>
+                                            <li>
+                                                <img src="../images/qr2_new.png" class="fl">
+                                                <h3>厂家网微信订阅号</h3>
+                                                <p>万千优惠资讯抢先收到，尖货好货等你来抢！</p>
+                                                <p>微信号：cjwscscb</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tc bz">
+                                        <img src="../images/flbz1.jpg">
+                                    </div>
+                                    <div class="ft_link">
+                                        <a href="javascript:;" target="_blank" class="nofollow">关于我们</a>|
+                                        <a href="javascript:;" target="_blank" class="nofollow">联系客服</a>|
+                                        <a href="javascript:;" target="_blank" class="nofollow">商家入驻</a>|
+                                        <a href="javascript:;" target="_blank" class="nofollow">隐私保护</a>|
+                                        <a href="javascript:;" target="_blank" class="nofollow">免责条款</a>|
+                                        <a href="javascript:;" target="_blank" class="nofollow">快递查询</a>
+                                    </div>
+                                    <p class="copyright">
+                                        版权所有 厂家网商城 保留所有版权 ICP备案证书号:粤ICP备12093889号,
+                                        <a href="javascript:;">经营许可证编号：粤B2-20140257</a><br>
+                                        Copyright © 2012-2013 www.cjwsc.com,All Rights Reserved
+                                    </p>
+                                    <div class="pic_list">
+                                        <a href="javascript:;" target="_blank" class="nofollow">
+                                            <img src="../images/315new.gif">
+                                        </a>
+                                        <a href="javascript:;" target="_blank" class="nofollow">
+                                            <img width="141" height="55" src="../images/VieID_140_50.png">
+                                        </a>
+                                        <span style="display:inline-block;position:relative;width:auto;">
+                                            <a href="javascript:;" target="_blank" class="nofollow" id="kx_verify" style="display:inline-block;">
+                                                <img width="141" height="55" src="../images/cnnic.png" style="border:none;">
+                                            </a>
+                                        </span>
+                                        <a href="javascript:;" target="_blank" class="nofollow">
+                                            <img width="156" height="45" src="../images/bluelogo.gif">
+                                        </a>
+                                        <a href="javascript:;" target="_blank" class="nofollow">
+                                            <img width="124" height="47" src="../images/sm_124x47.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--top-->
+    <div id="zt_wrap" style="position: absolute; left: 0px; right: auto; top: 0px;">
+        <div id="floatNav">
+            <ul class="custerlist">
+                <li>
+                    <a href="javascript:;" target="_blank">
+                        <img src="../images/qqservice_ico.png">
+                    </a>
+                    <div id="serveTxt">
+                        <p>客服热线：</p>
+                        <p style="color:#646464">400-999-0213</p>
+                        <p>客服时间：</p>
+                        <p style="color:#646464">9:00-20:30</p>
+                        <i class="kfsj_ico"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;" target="_blank">
+                        <img src="../images/qrcode_ico.png">
+                    </a>
+                    <div id="qrcode">
+                        <img src="../images/APP_new.png" width="103" height="103">
+                    </div>
+                </li>
+                <li id="backTop">
+                    <img src="../images/topnew_ico.png">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="../js/020shop.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/display.js"></script>
+</body>
+</html>
